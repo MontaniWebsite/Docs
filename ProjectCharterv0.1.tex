@@ -1,0 +1,224 @@
+\documentclass{article}
+
+\usepackage{graphicx}                       % Pacchetti
+\usepackage[italian]{babel}
+\graphicspath{ {./images/} }
+\usepackage{imakeidx}
+
+
+\makeindex[columns=1, title=Tavola dei contenuti, intoc]
+
+\begin{document}
+	
+	
+	\begin{titlepage}
+		\begin{center}
+			\huge\textbf{Montani Website}\\
+			\Large\textbf{5 INB}\\
+			\Large \textbf{Project Charter}\\
+			\vspace{4cm}
+			\large Project Manager: \textbf{Boussoufa Yacine}\\
+			\large Data: \textbf{07/02/2022}\\
+			\large Versione:\textbf{0.1}\\
+		\end{center}
+	\end{titlepage}
+	
+	\clearpage
+	
+	\begin{tabular}{ |p{1cm}|p{4cm}|p{3cm}|p{2cm}|  }
+		\hline
+		\multicolumn{4}{|c|}{Cronologia delle revisioni} \\
+		\hline
+		ID& Cambiamenti &Data di creazione&Autore\\
+		\hline
+		0   & Creazione    &07/02/2022&   Capretti Mattia\\
+		\hline
+	\end{tabular}
+	
+	\clearpage
+	
+	\tableofcontents
+	
+	
+	
+	\printindex
+	
+	%Stampa del titolo, autore e data
+	
+	
+	\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Background} }} 
+	\begin{flushleft}
+		L'Istituto Tecnico Tecnologico Statale “G. e M. MONTANI” di Fermo ha richiesto al richiesto di effettuare una modernizzazione grafica e funzionale del sito web della scuola, il quale non rispetta i requisiti grafici e funzionali definiti dal modello standard di siti web scolastici realizzato dal Team per la Trasformazione Digitale su richiesta del Ministero dell’Istruzione.
+		
+	\end{flushleft}
+	\vspace{3mm}
+	\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Obiettivo del progetto} }} 
+	\begin{flushleft}
+		L'obiettivo del presente progetto è di realizzare un sito web per l'Istituto Tecnico Tecnologico Montani di Fermo, al fine di risolvere i problemi di accessibilità, riscontrati dalle famiglie degli studenti e dai professori dell'istituto dovuti all'interfaccia grafica poco intuitiva e non più in regola con le direttive nazionali.   
+		Il restyling deve prevedere:
+		\begin{itemize}
+			\item \textbf{Home Page}: miglioramento della home page intento a rendere più intuitivo l' approccio al sito. 
+			\item \textbf{pagine degli indirizzi}: miglioramento delle pagine contenenti le informazioni riguardanti gli indirizzi.
+			\item \textbf{pagine non funzionanti}: risoluzione dei problemi legati ai link non funzionanti o che indirizzano a pagine non esistenti.
+			\item \textbf{privacy}: Consentire solo agli utenti loggati di visualizzare informazioni legate alle ore dei professori.
+			
+		\end{itemize}
+		\vspace{2mm}
+		
+		\subsection{Progettazione preliminare}
+		Il sito Web verrà realizzato attraverso l'utilizzo del CSM Wordpress. Precedentemente alla realizzazione di questo progetto l'Istituto Tecnico Tecnologico statale “G. e M. MONTANI” è già in possesso un sito web di conseguenza questo non è un progetto realizzato ex-novo.
+		Per la specifica dei requisiti e relativi casi d'uso consultare \textbf{allegato "A"}.\\ 
+		\vspace{2mm} 
+	\end{flushleft}
+	\vspace{1cm}
+	\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Ambito del progetto (SCOPE)} }} 
+	\begin{flushleft}
+		Definizione dei deliverable:
+		\begin{itemize}
+			\item Project management: Analisi e progettazione del sito web in relazioni ai requisiti utente e di sistema.
+			\item Preprogetto: Definizione del listino promozioni, offerte, funzionalità di ogni servizio offerto.
+			\item Progettazione: Scelta del design grafico e delle risorse necessarie.
+			\item Realizzazione: Home page del sito.
+			\item Realizzazione: Pagine secondarie del sito web.
+			\item Test: Debug e verifica con il cliente.
+			\item Riliascio: Consegna e pubblicizzazione.
+		\end{itemize}
+		
+		Definizione delle milestone:
+		\begin{itemize}
+			\item Accordi per il finanziamento del progetto.
+			\item Definizione del design grafico.
+			\item Caricamento dei materiali relativo alle pagine.
+			\item Consegna della versione alpha.
+		\end{itemize}
+		\subsection{In ambito}
+		Nel progetto è incluso:\\
+		\begin{itemize}
+			\item Implementazione grafica del sito web.
+			\item Vendita personalizzabile di servizi web.\\
+			\item Illustrazione dei vantaggi di strumentazione green.\\
+			\item Sezione blog.\\
+		\end{itemize}
+		\subsection{Fuori ambito}
+		Nel progetto non è incluso:
+		\begin{itemize}
+			\item Implementazione delle procedure di pagamento.
+			\item Sistema di registrazione ed accesso per gli utenti.
+		\end{itemize}
+		\vspace{2mm}
+		\subsection{Programmazione della tempistica preliminare}
+		\begin{tabular}{ |p{6cm}|p{4cm}|  }
+			\hline
+			Descrizione del prodotto da consegnare &Data obiettivo\\
+			\hline
+			Analisi della fattibilità e redazione SRS &20-25/01/2022\\
+			\hline
+			Realizzazione del sito web &25-30/01/2022\\
+			\hline
+			Debug e consegna &1/2/2022\\
+			\hline
+		\end{tabular}
+		\vspace{3mm}
+		\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Criteri di successo} }} 
+		Il sito web soddisfare i criteri stabiliti nell'allegato relativo alla specifica dei requisiti:
+		\begin{itemize}
+			\item Funzionali: esegue coerentemente i requisiti funzionali del progetto.
+			\item Non funzionali: rispetta i requisiti non funzionali del progetto.
+			\item Esterni: è conforme con le norme sulla privacy attualmente in vigore.
+			\item Organizzativi: è conforme alle caratteristiche organizzative dell'area commerciale e marketing dell'azienda.
+		\end{itemize}
+		\vspace{3mm}
+		\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Assunzioni e vincoli iniziali} }} 
+		\begin{tabular}{ |p{1cm}|p{2cm}|p{6cm}|  }
+			\hline
+			ID&Tipo &Descrizione\\
+			\hline
+			0&Temporale&Scadenza 28/02/2022\\
+			\hline
+			1&Economico&inesistenza di budget\\
+			\hline
+			2&Ambientale&Ambiente di sviluppo - CSM Wordpress\\
+			\hline
+			3&Legislativo&Politiche relative all'uso delle informazioni degli utenti\\
+			\hline
+		\end{tabular}
+		\clearpage
+		\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Team e comunicazione} }}
+		\subsection{Definizione degli stakeholders}
+		\begin{itemize}
+			\item Promotore: istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo
+			\item Cliente:istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo
+			\item Beneficiario: istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo
+			\item Team di progetto:
+			\begin{itemize}
+				\item Project Manager: (N/A)
+				\item Business Analyst: (N/A)
+				\item System Analyst: (N/A)
+				\item Debugger: (N/A)
+			\end{itemize}
+			\item Manager delle varie funzioni dell'organizzazione: 
+			\item Soggetti esterni all'organizzazione legati alle risorse: daniele trasatti
+			\item Soggetti condizionanti: famiglie degli studenti, studenti, professori dell'istituto
+			\begin{itemize}
+				\item Legislazione in vigore
+			\end{itemize}
+		\end{itemize}
+		\subsection{Parti interessate, Ruoli e responsabilità}
+		\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|  }
+			\hline
+			Parte interessata&Ruolo &Responsabilità\\
+			\hline
+			Capretti Mattia&Project Manager&Alta\\
+			\hline
+			Camilletti Samuele&Committente&Bassa\\
+			\hline
+			Boussoufa Yacine&Sponsor e promotore&Bassa\\
+			\hline
+			Enrique Nucci&Sponsor e promotore&Bassa\\
+			\hline
+		\end{tabular}
+		\vspace{3mm}
+		\subsection{Piano di comunicazione iniziale}
+		\begin{tabular}{ |p{3cm}|p{3.5cm}|p{2cm}|p{1.5cm}|p{2cm}|  }
+			\hline
+			Comunicazione&Descrizione &Frequenza&Formato&Destinatari\\
+			\hline
+			Aggiornamento stato con il cliente&Confronto dei progressi con i requisiti utente&Ogni 2 giorni&Smart-working&Daniele Trasatti\\
+			\hline
+		\end{tabular}
+		
+		\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Analisi dei rischi} }} 
+		Per l'analisi e valutazione dei rischi consultare \textbf{allegato "B"}.
+		\begin{tabular}{ |p{1cm}|p{2cm}|p{6cm}|p{2cm}|  }
+			\hline
+			ID&Tipo &Descrizione&Livello\\
+			\hline
+			0&temporale&tempo necessario per la realizzazione dell'interfaccia grafica insufficente&Basso\\	
+			\hline
+			1&Requisiti&Mancata comprensione della richiesta iniziale&Basso\\	
+			\hline
+		\end{tabular}
+		
+		\vspace{12mm}
+		\textbf{{\fontsize{5mm}{10mm}\selectfont \section{Autorità del progetto} }} 
+		Sponsor: istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo\\
+		Project Manager: (N/A)\\
+		Committente: istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo\\
+		\vspace{2mm}
+		\subsection{Allegati}
+		\begin{itemize}
+			\item Allegato A: SRS.
+			\item Allegato B: Analisi e valutazione dei rischi.
+			\item Allegato C: WBS.
+		\end{itemize}
+		\subsection{Firme}
+		Project Manager: (N/A)
+		Committente: istituto tecnico tecnologico statale “G. e M. MONTANI” di fermo
+		
+	\end{flushleft}
+	
+	
+	%_______________________________________________________________________________
+	%fine del documento
+\end{document}
+
