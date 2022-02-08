@@ -1,0 +1,460 @@
+\documentclass{article}
+
+\usepackage{graphicx} 
+\usepackage{hyperref}                         % Pacchetti
+\usepackage[italian]{babel}
+\graphicspath{ {./images/} }
+\usepackage{fancyhdr}
+\usepackage{imakeidx}
+
+
+\makeindex[columns=1, title=Tavola dei contenuti, intoc]
+
+\begin{document}
+	
+	
+	\begin{titlepage}
+		\begin{center}
+			\huge\textbf{Montani WebSite}\\
+			\Large\textbf{5 INB}\\
+			\Large \textbf{Specifica dei Requisiti}\\
+			\vspace{4cm}
+			\large Project Manager: \textbf{Boussoufa Yacine}\\
+			\large Data: \textbf{07/02/2022}\\
+			\large Versione:\textbf{0.2}\\
+			\large ID SRS: \textbf{Allegato A}\\
+			\large ID Progetto: \textbf{Montani}\\
+			
+		\end{center}
+	\end{titlepage}
+	
+	\clearpage
+	
+	\begin{tabular}{ |p{1cm}|p{4cm}|p{3cm}|p{2cm}|  }
+		\hline
+		\multicolumn{4}{|c|}{Cronologia delle revisioni} \\
+		\hline
+		ID& Cambiamenti &Data di creazione&Autore\\
+		\hline
+		001   & Creazione    &07/02/2022&   Camilletti Samuele\\
+		\hline
+		002   & Aggiunta Requisiti Funzionali classificati per utente    &08/02/2022&   Camilletti Samuele\\
+		\hline
+	\end{tabular}
+	
+	\clearpage
+	
+	\tableofcontents
+	\printindex	
+	
+   
+
+    %_______________________________________________________________________________________________
+    %ANALISI PROBLEMA	
+	\section{\textbf{Introduzione al documento}}
+	\flushleft
+	\normalsize
+	Il presente documento ha lo scopo di presentare una visione globale della Specifica dei Requisiti del progetto Montani WebSite. La struttura del documento è quella suggerita dallo standard ANSI/IEEE  830 noto come SRS (Software Requirements Specifications).
+	\normalsize
+	 \subsection{\textbf{Obiettivo}} 
+	\flushleft
+	\normalsize
+	Lo scopo del presente documento è di rappresentare, nel modo più preciso, completo, coerente, non  ambiguo e comprensibile, i requisiti relativi alla ridefinizione delle modalità di fruizione dei servizi scolastici mediante sito web dell'Istituto Tecnico Tecnologico ITT Montani di Fermo.\\ 
+	Per specifica dei requisiti si intende l’elicitazione di tutti i requisiti utente e di sistema del sistema informativo senza specificare le metodologie applicate per la risoluzione di essi.
+	
+	\subsection{\textbf{Campo di applicazione}}
+	L'obiettivo del presente progetto è di realizzare un sito web per l'Istituto Tecnico Tecnologico Montani di Fermo. La scuola dispone già di un sito web, il quale non rispetta i requisiti grafici e funzionali definiti dal modello standard di siti web scolastici realizzato dal Team per la Trasformazione Digitale su richiesta del Ministero dell'Istruzione. Il progetto si basa sulla metodologia, gli strumenti e il design system di Designers Italia e a sua volta, contribuisce ad alimentare il design system della Pubblica Amministrazione mettendo a disposizione di tutte le amministrazioni componenti e pattern elaborati. Per ulteriori informazioni consultare \url{https://docs.italia.it/italia/designers-italia/design-scuole-docs/it/master/progetto-siti-web-delle-scuole.html}. Partendo dallo studio della realtà pre-esistente è stato necessario ridefinire le modalità di navigazione e di interfacciamento con l'utente nel sito web. Un'ulteriore campo di applicazione del sito web è l'accessibilità, ovvero la capacità del sistema informativo di erogare informazioni rispettando le linee guida sull’accessibilità degli strumenti informatici secondo quanto descritto nell’articolo 11 della legge n. 4/2004.
+	
+	
+	\subsection{\textbf{Definizioni, acronimi e abbreviazioni}}
+	\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\textbf{Termine}& \textbf{Definizione}\\
+	\hline
+	Studente   & Studente che frequenta l'Istituto  \\
+	\hline
+	Genitori & Genitori degli Studenti \\
+	\hline
+	Personale tecnico amministrativo & Presidenza, Amministratori, Figure Amministrative \\
+	\hline
+	Insegnanti   &  Professionista nel campo dell'istruzione, operante nell'Istituto.  \\
+	\hline
+	Visitatore  & Soggetto non correlato all'Istituto in alcun modo se non per attività di orientamento. \\	
+	\hline
+\end{tabular}
+	
+	\subsection{\textbf{Sinonimi}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\textbf{Termine}& \textbf{Sinonimi}\\
+	\hline
+	Studente   & Alunno, Allievo  \\
+	\hline
+	Genitore   &  Parenti, Affidatari \\
+	\hline
+	Insegnanti  & Docenti\\	
+	\hline
+	Visitatore   & Studente non iscritto.  \\
+	\hline
+\end{tabular}
+	
+	\subsection{\textbf{Struttura del documento e riferimenti}}
+	Nella sezione 2 di questo documento verranno illustrate le interfacce di sistema e gli utenti coinvolti.\\
+	Nella sezione 3 di questo documento verranno illustrate le specifiche funzionali e non funzionali del sistema.\\
+	Questo documento si riferisce al project charter con ID Progetto Montani.\\
+	Per la programmazione delle attività di lavoro fare riferimento ad Allegato B e per l'analisi dei rischi all'allegato C.\\
+	
+	\vspace{1cm}
+	
+	\section{\textbf{Descrizione generale}}
+     Questa sezione descrive le funzionalità generale del prodotto, le interfacce e gli utenti del sistema.
+
+	\subsection{\textbf{Inquadramento}}
+	Questo progetto mira a ridefinire il modello di fruizione dei servizi scolastici dell'Istituto T.T. Montani di Fermo attraverso il suo sito web.
+	
+	Il sito web è accessibile da qualsiasi device connesso ad internet, attraverso l'utilizzo di un browser web e digitando l'indirizzo istitutomontani.edu.it.\\
+	Al caricamento della pagina verrà mostrata l'homepage, dalla quale si potrà scegliere il facilmente il servizio che l'utente sta cercando. 
+	
+	\subsubsection{\textbf{Interfaccia utente}}
+	L’interfaccia sistema/utente è stata realizzata attraverso un sito web il quale utilizza il CSM Wordpress. WordPress è una piattaforma software di content management system (CMS) che, operando lato server in un database, consente la creazione di un sito Internet formato da contenuti testuali o multimediali, gestibili ed aggiornabili in maniera dinamica; facendo uso di codice HTML CSS e JavaScript. Wordpress mette a disposizione anche plugin e temi per la personalizzazione del sito web. 
+	
+	\subsubsection{\textbf{Interfaccia software}}
+	Come spiegato nella sezione 2.1.1 il sito web è stato realizzato attraverso il software di gestione di contenuti (CMS) Wordpress. Wordpress necessita di un database per la memorizzazione di tutte le informazioni relative al sito e un Web Server Apache.  
+	
+	\subsubsection{\textbf{Interfaccia hardware}}
+	Per la mantenimento del web server e del database viene utilizzato il servizio hosting Aruba. Il dominio (istitutomontani.edu.it) segue le normative relative agli indirizzi istituzionali.
+	
+	\subsubsection{\textbf{Interfaccia di comunicazione}}
+	Il sito si interfaccia con la piattaforma Spaggiari per le comunicazioni scolastiche.	
+
+	\subsection{\textbf{Definizione degli utenti}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\textbf{Tipo}& \textbf{Descrizione}\\
+	\hline
+	Studente   & Gli studenti possono visionare le informazioni relative ad orari. \\
+	\hline
+	Genitore   & I genitori possono visionare le informazioni relative ad orari.
+	\\
+	\hline
+	Amministratori  & Gli amministratori hanno completo accesso alle funzionalità del CSM.\\	
+	\hline
+	Docente & I docenti hanno accesso al lato gestionale del CSM e wordpress e si occupano di inserire e modifica progettualità. Non possono modificare notizie.\\
+	\hline
+\end{tabular}
+
+	\subsection{\textbf{Requisiti da analizzare in futuro}}
+Non definiti.	
+\clearpage
+	\Large \section{\textbf{Specifiche funzionali e non funzionali del sistema}} 
+
+\subsection{\textbf{Requisiti funzionali}}
+\normalsize
+\flushleft
+I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferimento alla sezione 2.2 per maggiori informazioni):
+\begin{itemize}
+	\item \textbf{Visitatore}:
+	\begin{itemize}
+		\item Connessione al sito e Visualizzazione della home page.
+		\item Visualizzazione delle pagine delle articolazioni scolastiche.
+		\item Visualizzazione delle comunicazioni e notizie scolastiche.
+		\item Visualizzazione delle norme dell'Istituto.
+		\item Visualizzazione della Storia dell'Istituto.
+		\item Visualizzazione delle progettualità svolte.	
+	\end{itemize}
+	\item \textbf{Studente}: Gli studenti possiedono gli stessi requisiti funzionali dei Visitatori
+	\begin{itemize}
+		\item Visualizzazione degli orari scolastici.
+		\item Visualizzazione delle assenza docenti.	
+	\end{itemize}		
+	\item \textbf{Genitori/Personale ATA}: I requisiti funzionali di queste due categorie di utenti coincidono con quelli del Visitatore.
+	\item \textbf{Docente}: I docenti possiedono gli stessi requisiti funzionali dei Visitatori e Studenti
+	\begin{itemize}
+		\item Caricamento di programmazioni scolastiche, progettualità e libri di testo adoperati.	
+	\end{itemize}
+	\item \textbf{Amministratore}: I docenti possiedono gli stessi requisiti funzionali dei Visitatori, Studenti, Docenti.
+	\begin{itemize}
+		\item Aggiunta di pagine, articoli, gestione back-end e accesso completo al database.	
+	\end{itemize}
+	\item Il sito web deve essere disponibile a tutti i dispositivi dotati di connessione internet e deve prevedere una home di accesso dalle quale venga effettuata una panoramica dei servizi.
+	\item Il sito web deve presentare un rifacimento sotto l'aspetto grafico al fin di modernizzare l'interfaccia attuale.
+	\item Il sito web deve prevedere funzionalità aggiuntive come l'inserimento delle progettualità o l'aggiornamento degli orari.
+	\item Il nuovo sito deve presentare la stessa offerta formativa presentata nella versione precedente del sito web.
+	\item il sito deve presentare un interfacciamento attraverso la piattaforma Spaggiari per la visualizzazione delle circolari e dell'albo online.
+	\item il sito deve presentare una panoramica della storia dell'istituto aggiornata.
+	\item Il sito web deve prevedere un sistema di login che identifichi attraverso un account la categoria di utente connessa.
+\end{itemize}
+\subsubsection{\textbf{Caso d'uso: Connessione al sito e Visualizzazione della home page}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 001}} \\
+	\hline
+	Specifica& Connessione alla home page del sito\\
+	\hline
+	Attori& Visitatore/Studente/Docente/Genitore/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve predisporre di un dispositivo connesso alla rete internet e di un software browser\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore apre il broswer
+		\item L'attore inserisce nella barra di ricerca l'indirizzo "istitutomontani.edu.it"
+		\item La pagina home viene caricata con successo
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore può visitare la home page del sito Montani\\
+	\hline
+\end{tabular}
+\clearpage
+\subsubsection{\textbf{Caso d'uso: Connessione alle sotto pagine del sito}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 002}} \\
+	\hline
+	Specifica& Connessione alle pagine secondario\\
+	\hline
+	Attori& Visitatore/Studente/Docente/Genitore/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve essere connesso alla home o al sito.\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore procede a visualizzare le pagine presenti nelle due barre in alto nel sito (header)
+		\item L'attore clicca la sotto pagina da visitare. (Nella prima barra sono presenti le comunicazioni, informazioni e la seconda barra è dedicata agli indirizzi di studio)
+		\item La pagina viene caricata con successo.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore si trova nella pagina scelta.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Inserimento di nuovi articoli o post}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 003}} \\
+	\hline
+	Specifica& Inserimento di nuovi articoli o post\\
+	\hline
+	Attori& Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve aver effettuato il login nella sezione admin Wordpress.\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore sceglie "New" dalla barra in alto presente in ogni pagina del sito
+		\item L'attore sceglie la tipologia di post da effettuare ed inserisce il testo/media dall'apposito editor.
+		\item L'attore clicca il tasto "Publish" a sinistra nell'editor.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& Il post/articolo viene pubblicato.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Login account}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 004}} \\
+	\hline
+	Specifica& Accesso al proprio account\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
+		\item il sistema visualizza i campi dove inserire username e password dell'utente.
+		\item L'attore inserisce username e password.
+		\item Il sistema verifica se username e password sono corretti.
+		\item Se username e password sono corretti il sistema visualizza la homepage.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore ha avuto accesso al sito.\\
+	\hline
+	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
+	\hline
+	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Inserimento Progettualità}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 005}} \\
+	\hline
+	Specifica& Accesso al proprio account\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
+		\item il sistema visualizza i campi dove inserire username e password dell'utente.
+		\item L'attore inserisce username e password.
+		\item Il sistema verifica se username e password sono corretti.
+		\item Se username e password sono corretti il sistema visualizza la homepage.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore ha avuto accesso al sito.\\
+	\hline
+	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
+	\hline
+	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Visualizzazione progettualità}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 006}} \\
+	\hline
+	Specifica& Accesso al proprio account\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
+		\item il sistema visualizza i campi dove inserire username e password dell'utente.
+		\item L'attore inserisce username e password.
+		\item Il sistema verifica se username e password sono corretti.
+		\item Se username e password sono corretti il sistema visualizza la homepage.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore ha avuto accesso al sito.\\
+	\hline
+	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
+	\hline
+	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Visualizzazione orari scolastici}}
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 007}} \\
+	\hline
+	Specifica& Accesso al proprio account\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
+		\item il sistema visualizza i campi dove inserire username e password dell'utente.
+		\item L'attore inserisce username e password.
+		\item Il sistema verifica se username e password sono corretti.
+		\item Se username e password sono corretti il sistema visualizza la homepage.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& L'attore ha avuto accesso al sito.\\
+	\hline
+	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
+	\hline
+	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	\hline
+\end{tabular}
+\normalsize
+\flushleft
+\vspace{4mm} 
+\subsection{\textbf{Requisiti non funzionali}}
+In questa sezione si sintetizzano tutte le caratteristiche non funzionali emerse dalla fase di  analisi dei vincoli di diversa natura raccolti durante le interviste e lo studio dell'ambito d'applicazione. Queste caratteristiche definiscono tutte le funzionalità “esterne” al sistema:
+\vspace{4mm} \vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 001}} \\
+	\hline
+	Specifica&Portabilità\\
+	\hline
+	Metrica & Dispositivi\\
+	\hline
+	Descrizione&Il sito web deve essere accessibile e visualizzabile da ogni dispositivo con connessione internet ed un browser web. Il sito deve essere portabile anche su altri Web Server esportando il database MySQL. Il CSM Wordpress supporta tutti i browser moderni.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 002}} \\
+	\hline
+	Specifica&Usabilità \\
+	\hline
+	Metrica & Tempo di lettura articoli\\
+	\hline
+	Descrizione&Il sito web deve essere comprensibile e facilmente leggibile. Il tempo medio di lettura di un articolo o post deve essere inferiore ai 2 minuti.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 003}} \\
+	\hline
+	Specifica &Implementazione\\
+	\hline
+	Metrica &  Versione sistema\\
+	\hline
+	Descrizione&Il sito web deve essere implementato attraverso il CSM Wordpress. Il sistema deve soddisfare i requisiti richiesti da Wordpress (PHP versione 7.4 o superiore.
+	MySQL versione 5.7 o superiore O MariaDB versione 10.2 o superiore.
+	HTTPS compatibilità protocollo.) Inoltre come definito dal Ministero dell'Istruzione tutti i siti di nuova realizzazione, devono utilizzare almeno la versione 4.01 dell'HTML o la versione 1.0 dell'XHTML, entrambe con DTD (Definizione del Tipo di Documento) di tipo Strict.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 004}} \\
+	\hline
+	Specifica&Legislativo\\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&Le norme legislative da rispettare saranno esplicitate direttamente attraverso il sito.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 005}} \\
+	\hline
+	Specifica&Temporale \\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&La prima versione del sito web funzionante deve essere consegnata entro il 28/02/2022.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 006}} \\
+	\hline
+	Specifica&Budget \\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&Allo stato attuale non è presente un budget per lo sviluppo del sito.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 007}} \\
+	\hline
+	Specifica&Scalabilità \\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&Il sistema prevede di essere utilizzato negli anni a seguire, sarà quindi prevista un'evoluzione del sito nel tempo.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 008}} \\
+	\hline
+	Specifica&Standard \\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&Il sito rispetta gli standard definiti dal Team del Ministero della Trasformazione Digitale su commissione del Ministero dell'Istruzione in ambito di siti web ministeriali.\\
+	\hline
+\end{tabular}\\
+
+\section{\textbf{Ulteriori specifiche}}
+Ulteriori specifiche, se necessarie, verranno aggiunte nelle prossime versioni del seguente documento.
+\end{document}
+	
+    
