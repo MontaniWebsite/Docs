@@ -20,8 +20,8 @@
 			\Large \textbf{Specifica dei Requisiti}\\
 			\vspace{4cm}
 			\large Project Manager: \textbf{Boussoufa Yacine}\\
-			\large Data: \textbf{07/02/2022}\\
-			\large Versione: \textbf{0.2}\\
+			\large Data: \textbf{11/02/2022}\\
+			\large Versione: \textbf{0.3}\\
 			\large ID SRS: \textbf{Allegato A}\\
 			\large ID Progetto: \textbf{Montani}\\
 			
@@ -39,6 +39,8 @@
 		001   & Creazione    &07/02/2022&   Camilletti Samuele\\
 		\hline
 		002   & Aggiunta Requisiti Funzionali classificati per utente    &08/02/2022&   Camilletti Samuele\\
+		\hline
+		003   & Modifica dei requisiti dopo revisione con il cliente    &11/02/2022&   Camilletti Samuele\\
 		\hline
 	\end{tabular}
 	
@@ -81,6 +83,10 @@
 	\hline
 	Visitatore  & Soggetto non correlato all'Istituto in alcun modo se non per attività di orientamento. \\	
 	\hline
+	Header & Intestazione del sito presente in ogni pagina. \\
+	Forum & Luogo di scambio di messaggi visibile agli utenti registrati.\\
+	Topic & Argomento di discussione.\\
+	Post & Messaggio della discussione. \\
 \end{tabular}
 	
 	\subsection{\textbf{Sinonimi}}
@@ -141,10 +147,12 @@
 	\hline
 	Docente & I docenti hanno accesso al lato gestionale del CSM e wordpress e si occupano di inserire e modifica progettualità. Non possono modificare notizie.\\
 	\hline
+	Visitatore & I soggetti non iscritti al sito.\\
+\hline
 \end{tabular}
 
 	\subsection{\textbf{Requisiti da analizzare in futuro}}
-Non definiti.	
+	Pop-up nella home page.	
 \clearpage
 	\Large \section{\textbf{Specifiche funzionali e non funzionali del sistema}} 
 
@@ -181,8 +189,18 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	\item Il sito web deve prevedere funzionalità aggiuntive come l'inserimento delle progettualità o l'aggiornamento degli orari.
 	\item Il nuovo sito deve presentare la stessa offerta formativa presentata nella versione precedente del sito web.
 	\item il sito deve presentare un interfacciamento attraverso la piattaforma Spaggiari per la visualizzazione delle circolari e dell'albo online.
-	\item il sito deve presentare una panoramica della storia dell'istituto aggiornata.
+	\item Il sito deve presentare una panoramica della storia dell'istituto aggiornata.
 	\item Il sito web deve prevedere un sistema di login che identifichi attraverso un account la categoria di utente connessa.
+	\end{itemize}
+	\textbf{Requisiti funzionali aggiunti dopo prima revisione}
+\begin{itemize}
+	\item Il sito web deve prevedere una tabella orari standardizzata e facilmente accessibile..
+	\item L'header del sito web deve presentare un logo più grande.
+	\item Il sito web deve presentare dei menù in base al tipo di utente.
+	\item Il sito web deve presentare una sezione notizie organizzata.
+	\item Il sito web deve prevedere un Forum come luogo di incontro e discussione tra Studenti e Docenti.
+	\item Il sito web deve presentare una repository di progetti (PCTO).
+	\item Il sito web deve presentare Mappa dei plessi.
 \end{itemize}
 \subsubsection{\textbf{Caso d'uso: Connessione al sito e Visualizzazione della home page}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
@@ -349,6 +367,52 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
 	\hline
 \end{tabular}
+\subsubsection{\textbf{Caso d'uso: Creazione di un topic nel Forum}}
+\begin{tabular}{ |p{3cm}|p{9cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 008}} \\
+	\hline
+	Specifica& Creazione di un topic nel Forum\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Forum sulla barra dell'header.
+		\item Il sistema visualizza l'interfaccia Forum.
+		\item L'attore sceglie un Forum tra quelli elencati.
+		\item Il sistema visualizza i Topic esistenti in quella categoria.
+		\item L'attore clicca su Nuovo Topic ed inserisce l'argomento della discussione.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& Il topic viene aggiunto con successo.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Creazione di un post nel Forum}}
+\begin{tabular}{ |p{3cm}|p{9cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 009}} \\
+	\hline
+	Specifica& Creazione di un post nel Forum\\
+	\hline
+	Attori& Studente/Docente/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item L'attore clicca sul tasto Forum sulla barra dell'header.
+		\item Il sistema visualizza l'interfaccia Forum.
+		\item L'attore sceglie un Forum tra quelli elencati.
+		\item Il sistema visualizza i Topic esistenti in quella categoria.
+		\item L'attore clicca su un Topic.
+		\item Il sistema visualizza i post pubblicati nel Topic.
+		\item L'attore inserisce una nuova risposta nel form in basso.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& Il post viene aggiunto con successo.\\
+	\hline
+\end{tabular}
 \normalsize
 \flushleft
 \vspace{4mm} 
@@ -359,11 +423,11 @@ In questa sezione si sintetizzano tutte le caratteristiche non funzionali emerse
 	\hline
 	\multicolumn{2}{|c|}{\textbf{RNF - 001}} \\
 	\hline
-	Specifica&Portabilità\\
+	Specifica&Portabilità / Responsive\\
 	\hline
 	Metrica & Dispositivi\\
 	\hline
-	Descrizione&Il sito web deve essere accessibile e visualizzabile da ogni dispositivo con connessione internet ed un browser web. Il sito deve essere portabile anche su altri Web Server esportando il database MySQL. Il CSM Wordpress supporta tutti i browser moderni.\\
+	Descrizione&Il sito web deve essere accessibile e visualizzabile da ogni dispositivo con connessione internet ed un browser web. Il sito deve essere portabile anche su altri Web Server esportando il database MySQL. Il CSM Wordpress supporta tutti i browser moderni. Il sito web deve essere disponibile su dispositivi di natura diversa.\\
 	\hline
 \end{tabular}\\
 \vspace{4mm} 
@@ -449,7 +513,20 @@ In questa sezione si sintetizzano tutte le caratteristiche non funzionali emerse
 	\hline
 	Metrica &  -\\
 	\hline
-	Descrizione&Il sito rispetta gli standard definiti dal Team del Ministero della Trasformazione Digitale su commissione del Ministero dell'Istruzione in ambito di siti web ministeriali.\\
+	Descrizione&Il sito rispetta gli standard definiti dal Team del Ministero della Trasformazione Digitale su commissione del Ministero dell'Istruzione in ambito di siti web ministeriali.
+	Il sito web deve supportare Google Analytics per il monitoraggio del traffico. Il sito web deve supportare SEO per l'indicizzazione nel web.\\
+	\hline
+\end{tabular}\\
+\vspace{4mm} 
+\begin{tabular}{ |p{3cm}|p{8cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RNF - 009}} \\
+	\hline
+	Specifica&Etico \\
+	\hline
+	Metrica &  -\\
+	\hline
+	Descrizione&Il sito web deve essere leggibile da web reader per soggetti ipovedenti.\\
 	\hline
 \end{tabular}\\
 
