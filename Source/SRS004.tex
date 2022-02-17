@@ -21,7 +21,7 @@
 			\vspace{4cm}
 			\large Project Manager: \textbf{Boussoufa Yacine}\\
 			\large Data: \textbf{11/02/2022}\\
-			\large Versione: \textbf{0.3}\\
+			\large Versione: \textbf{0.4}\\
 			\large ID SRS: \textbf{Allegato A}\\
 			\large ID Progetto: \textbf{Montani}\\
 			
@@ -42,6 +42,10 @@
 		\hline
 		003   & Modifica dei requisiti dopo revisione con il cliente    &11/02/2022&   Camilletti Samuele\\
 		\hline
+		004   & Aggiunta dei requisiti dopo revisione con il cliente    &15/02/2022&   Camilletti Samuele\\
+\hline
+		005   & Aggiunta dei requisiti dopo revisione con il cliente    &16/02/2022&   Camilletti Samuele\\
+\hline
 	\end{tabular}
 	
 	\clearpage
@@ -65,7 +69,8 @@
 	Per specifica dei requisiti si intende l’elicitazione di tutti i requisiti utente e di sistema del sistema informativo senza specificare le metodologie applicate per la risoluzione di essi.
 	
 	\subsection{\textbf{Campo di applicazione}}
-	L'obiettivo del presente progetto è di realizzare un sito web per l'Istituto Tecnico Tecnologico Montani di Fermo. La scuola dispone già di un sito web, il quale non rispetta i requisiti grafici e funzionali definiti dal modello standard di siti web scolastici realizzato dal Team per la Trasformazione Digitale su richiesta del Ministero dell'Istruzione. Il progetto si basa sulla metodologia, gli strumenti e il design system di Designers Italia e a sua volta, contribuisce ad alimentare il design system della Pubblica Amministrazione mettendo a disposizione di tutte le amministrazioni componenti e pattern elaborati. Per ulteriori informazioni consultare \url{https://docs.italia.it/italia/designers-italia/design-scuole-docs/it/master/progetto-siti-web-delle-scuole.html}. Partendo dallo studio della realtà pre-esistente è stato necessario ridefinire le modalità di navigazione e di interfacciamento con l'utente nel sito web. Un'ulteriore campo di applicazione del sito web è l'accessibilità, ovvero la capacità del sistema informativo di erogare informazioni rispettando le linee guida sull’accessibilità degli strumenti informatici secondo quanto descritto nell’articolo 11 della legge n. 4/2004.
+	L'obiettivo del presente progetto è di realizzare un sito web per l'Istituto Tecnico Tecnologico Montani di Fermo. La scuola dispone già di un sito web, il quale non rispetta i requisiti grafici e funzionali definiti dal modello standard di siti web scolastici realizzato dal Team per la Trasformazione Digitale su richiesta del Ministero dell'Istruzione. Il progetto si basa sulla metodologia, gli strumenti e il design system di Designers Italia e a sua volta, contribuisce ad alimentare il design system della Pubblica Amministrazione mettendo a disposizione di tutte le amministrazioni componenti e pattern elaborati. Per ulteriori informazioni consultare \url{https://docs.italia.it/italia/designers-italia/design-scuole-docs/it/master/progetto-siti-web-delle-scuole.html} e \url{https://www.funzionepubblica.gov.it/articolo/dipartimento/26-11-2009/direttiva-n-8-2009}. Partendo dallo studio della realtà pre-esistente è stato necessario ridefinire le modalità di navigazione e di interfacciamento con l'utente nel sito web. 
+	Uno dei campi di applicazione del sito web è l'accessibilità, ovvero la capacità del sistema informativo di erogare informazioni rispettando le linee guida sull’accessibilità degli strumenti informatici secondo quanto descritto nell’articolo 11 della legge n. 4/2004.
 	
 	
 	\subsection{\textbf{Definizioni, acronimi e abbreviazioni}}
@@ -84,9 +89,15 @@
 	Visitatore  & Soggetto non correlato all'Istituto in alcun modo se non per attività di orientamento. \\	
 	\hline
 	Header & Intestazione del sito presente in ogni pagina. \\
+	\hline
 	Forum & Luogo di scambio di messaggi visibile agli utenti registrati.\\
+		\hline
 	Topic & Argomento di discussione.\\
+		\hline
 	Post & Messaggio della discussione. \\
+		\hline
+	Repository & Archivio informazioni\\
+	\hline
 \end{tabular}
 	
 	\subsection{\textbf{Sinonimi}}
@@ -102,6 +113,8 @@
 	\hline
 	Visitatore   & Studente non iscritto.  \\
 	\hline
+	Segreteria   & Personale della segreteria.  \\
+\hline
 \end{tabular}
 	
 	\subsection{\textbf{Struttura del documento e riferimenti}}
@@ -110,7 +123,7 @@
 	Questo documento si riferisce al project charter con ID Progetto Montani.\\
 	Per la programmazione delle attività di lavoro fare riferimento ad Allegato B e per l'analisi dei rischi all'allegato C.\\
 	
-	\vspace{1cm}
+	\clearpage
 	
 	\section{\textbf{Descrizione generale}}
      Questa sezione descrive le funzionalità generale del prodotto, le interfacce e gli utenti del sistema.
@@ -148,6 +161,8 @@
 	Docente & I docenti hanno accesso al lato gestionale del CSM e wordpress e si occupano di inserire e modifica progettualità. Non possono modificare notizie.\\
 	\hline
 	Visitatore & I soggetti non iscritti al sito.\\
+	\hline
+	Segreteria & Personale della segreteria.\\
 \hline
 \end{tabular}
 
@@ -175,14 +190,19 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 		\item Visualizzazione degli orari scolastici.
 		\item Visualizzazione delle assenza docenti.	
 	\end{itemize}		
-	\item \textbf{Genitori/Personale ATA}: I requisiti funzionali di queste due categorie di utenti coincidono con quelli del Visitatore.
+	\item \textbf{Genitori}: I requisiti funzionali coincidono con quelli del Visitatore.
+	\item \textbf{Segreteria}:
+		\begin{itemize}
+			\item Caricamento dei libri di testo.	
+	\end{itemize}
 	\item \textbf{Docente}: I docenti possiedono gli stessi requisiti funzionali dei Visitatori e Studenti
 	\begin{itemize}
-		\item Caricamento di programmazioni scolastiche, progettualità e libri di testo adoperati.	
+		\item Caricamento di programmazioni scolastiche e progettualità adoperati.	
 	\end{itemize}
 	\item \textbf{Amministratore}: I docenti possiedono gli stessi requisiti funzionali dei Visitatori, Studenti, Docenti.
 	\begin{itemize}
-		\item Aggiunta di pagine, articoli, gestione back-end e accesso completo al database.	
+		\item Aggiunta di pagine, articoli, gestione back-end e accesso completo al database.
+		\item Caricamento della modulistica.	
 	\end{itemize}
 	\item Il sito web deve essere disponibile a tutti i dispositivi dotati di connessione internet e deve prevedere una home di accesso dalle quale venga effettuata una panoramica dei servizi.
 	\item Il sito web deve presentare un rifacimento sotto l'aspetto grafico al fin di modernizzare l'interfaccia attuale.
@@ -201,6 +221,11 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	\item Il sito web deve prevedere un Forum come luogo di incontro e discussione tra Studenti e Docenti.
 	\item Il sito web deve presentare una repository di progetti (PCTO).
 	\item Il sito web deve presentare Mappa dei plessi.
+\end{itemize}
+	\textbf{Requisiti funzionali aggiunti dopo seconda revisione}
+\begin{itemize}
+	\item Il sito web deve prevedere un sistema di login semplice (APi Auth di Google).
+	\item Il sito web deve prevedere uno slide-show per le articolazioni che metta in luce tuttei i percorsi di studio scolastici. 
 \end{itemize}
 \subsubsection{\textbf{Caso d'uso: Connessione al sito e Visualizzazione della home page}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
@@ -272,7 +297,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	\hline
 	Attori& Studente/Docente/Amministratore\\
 	\hline
-	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	Pre-Condizioni& L'attore deve possedere un account.\\
 	\hline
 	Scenario principale& \begin{enumerate}
 		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
@@ -298,7 +323,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	\hline
 	Attori& Studente/Docente/Amministratore\\
 	\hline
-	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	Pre-Condizioni& L'attore deve possedere un account.\\
 	\hline
 	Scenario principale& \begin{enumerate}
 		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
@@ -413,6 +438,42 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	Post-Condizioni& Il post viene aggiunto con successo.\\
 	\hline
 \end{tabular}
+\subsubsection{\textbf{Caso d'uso: Caricamento di programmazioni}}
+\begin{tabular}{ |p{3cm}|p{9cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 010}} \\
+	\hline
+	Specifica& Caricamento di programmazioni\\
+	\hline
+	Attori& Docente\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item da definire.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& Il post viene aggiunto con successo.\\
+	\hline
+\end{tabular}
+\subsubsection{\textbf{Caso d'uso: Caricamento di modulistica e libri di testo}}
+\begin{tabular}{ |p{3cm}|p{9cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{\textbf{RF - 011}} \\
+	\hline
+	Specifica& Creazione di un post nel Forum\\
+	\hline
+	Attori& Segreteria/Amministratore\\
+	\hline
+	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
+	\hline
+	Scenario principale& \begin{enumerate}
+		\item da definire.
+	\end{enumerate}\\
+	\hline
+	Post-Condizioni& Il post viene aggiunto con successo.\\
+	\hline
+\end{tabular}
 \normalsize
 \flushleft
 \vspace{4mm} 
@@ -437,9 +498,9 @@ In questa sezione si sintetizzano tutte le caratteristiche non funzionali emerse
 	\hline
 	Specifica&Usabilità \\
 	\hline
-	Metrica & Tempo di lettura articoli\\
+	Metrica & Tempo di lettura articoli, Facilità di apertura\\
 	\hline
-	Descrizione&Il sito web deve essere comprensibile e facilmente leggibile. Il tempo medio di lettura di un articolo o post deve essere inferiore ai 2 minuti.\\
+	Descrizione&Il sito web deve essere comprensibile e facilmente leggibile. Il tempo medio di lettura di un articolo o post deve essere inferiore ai 2 minuti.\\ Il sito web deve prevedere dei percorsi indicizzati per categoria di utente.\\
 	\hline
 \end{tabular}\\
 \vspace{4mm} 
@@ -526,7 +587,7 @@ In questa sezione si sintetizzano tutte le caratteristiche non funzionali emerse
 	\hline
 	Metrica &  -\\
 	\hline
-	Descrizione&Il sito web deve essere leggibile da web reader per soggetti ipovedenti.\\
+	Descrizione&Il sito web deve essere leggibile da web reader per soggetti ipovedenti.\\ Il sito web deve prevedere un sistema di traduzione dell'intero sito.\\
 	\hline
 \end{tabular}\\
 
