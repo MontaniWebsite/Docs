@@ -263,6 +263,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 		RF - 020& Il sito web deve prevedere un sistema di login che identifichi attraverso un account la categoria di utente connessa. &Proposto&Accettato\\
 		\hline
 	\end{tabular}
+\vspace{2mm}
 	\textbf{Requisiti funzionali aggiunti dopo prima revisione}
 \begin{tabular}{ |p{1cm}|p{4cm}|p{3cm}|p{2cm}|  }
 		\hline
@@ -335,7 +336,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 \subsubsection{\textbf{Caso d'uso: Inserimento di nuovi articoli o post}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 003}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 014}} \\
 	\hline
 	Specifica& Inserimento di nuovi articoli o post\\
 	\hline
@@ -355,7 +356,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 \subsubsection{\textbf{Caso d'uso: Login account}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 004}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 020}} \\
 	\hline
 	Specifica& Accesso al proprio account\\
 	\hline
@@ -365,8 +366,8 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	\hline
 	Scenario principale& \begin{enumerate}
 		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
-		\item il sistema visualizza i campi dove inserire username e password dell'utente.
-		\item L'attore inserisce username e password.
+		\item il sistema visualizza un bottone per eseguire l'accesso attraverso l'account Google Gmail.
+		\item L'attore inserisce username e password del proprio account Google.
 		\item Il sistema verifica se username e password sono corretti.
 		\item Se username e password sono corretti il sistema visualizza la homepage.
 	\end{enumerate}\\
@@ -381,59 +382,55 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 \subsubsection{\textbf{Caso d'uso: Inserimento Progettualità}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 005}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 013}} \\
 	\hline
 	Specifica& Inserimento Progettualità\\
 	\hline
-	Attori& Studente/Docente/Amministratore\\
+	Attori& Docente/Amministratore\\
 	\hline
 	Pre-Condizioni& L'attore deve possedere un account.\\
 	\hline
 	Scenario principale& \begin{enumerate}
-		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
-		\item il sistema visualizza i campi dove inserire username e password dell'utente.
-		\item L'attore inserisce username e password.
-		\item Il sistema verifica se username e password sono corretti.
-		\item Se username e password sono corretti il sistema visualizza la homepage.
+		\item Da qualsiasi pagina del sito L'attore clicca su 'I miei progetti' nel menù in alto a destra.
+		\item Il sistema visualizza la pagina dei progetti caricati.
+		\item L'attore clicca sul tasto 'Carica Progetto'.
+		\item Il sistema visualizza la form per il caricamento del file.
+		\item L'attore sceglie l'anno scolastico, la classe e carica il file.
+		\item Il sistema archivia il documento nel database.
 	\end{enumerate}\\
 	\hline
-	Post-Condizioni& L'attore ha avuto accesso al sito.\\
+	Post-Condizioni& Il file è caricato con successo.\\
 	\hline
-	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
+	Scenario secondario& L'attore ha inserito un file non corretto.\\
 	\hline
-	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	Post-Condizioni& L'attore deve eseguire la procedura nuovamente.\\
 	\hline
 \end{tabular}
-\subsubsection{\textbf{Caso d'uso: Visualizzazione progettualità}}
+\subsubsection{\textbf{Caso d'uso: Visualizzazione progettualità/libri di testo/moduli/programmazioni}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 006}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 009}} \\
 	\hline
 	Specifica& Visualizzazione progettualità\\
 	\hline
-	Attori& Studente/Docente/Amministratore\\
+	Attori& Studente/Docente/Amministratore/Segreteria\\
 	\hline
 	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
 	\hline
 	Scenario principale& \begin{enumerate}
-		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
-		\item il sistema visualizza i campi dove inserire username e password dell'utente.
-		\item L'attore inserisce username e password.
-		\item Il sistema verifica se username e password sono corretti.
-		\item Se username e password sono corretti il sistema visualizza la homepage.
+		\item L'attore sceglie dall'header il menù a cui è interessato.
+		\item il sistema visualizza un motore di ricerca.
+		\item L'attore inserisce clicca sulle opzioni desiderate.
+		\item Il sistema visualizza i file richiesti.
 	\end{enumerate}\\
 	\hline
-	Post-Condizioni& L'attore ha avuto accesso al sito.\\
-	\hline
-	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
-	\hline
-	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	Post-Condizioni& I file vengono mostrati con successo.\\
 	\hline
 \end{tabular}
 \subsubsection{\textbf{Caso d'uso: Visualizzazione orari scolastici}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 007}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 004}} \\
 	\hline
 	Specifica& Visualizzazione orari scolastici\\
 	\hline
@@ -442,24 +439,19 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
 	\hline
 	Scenario principale& \begin{enumerate}
-		\item L'attore clicca sul tasto Accedi in alto a destra nel sito.
-		\item il sistema visualizza i campi dove inserire username e password dell'utente.
-		\item L'attore inserisce username e password.
-		\item Il sistema verifica se username e password sono corretti.
-		\item Se username e password sono corretti il sistema visualizza la homepage.
+		\item L'attore sceglie dall'header il menù a cui è interessato.
+		\item il sistema visualizza un motore di ricerca.
+		\item L'attore inserisce clicca sulle opzioni desiderate.
+		\item Il sistema visualizza i file richiesti.
 	\end{enumerate}\\
 	\hline
-	Post-Condizioni& L'attore ha avuto accesso al sito.\\
-	\hline
-	Scenario secondario& L'attore ha sbagliato password o non le sue credenziali non esistono.\\
-	\hline
-	Post-Condizioni& L'attore chiede assistenza alla scuola.\\
+	Post-Condizioni& Gli orari scolastici vengono mostrati.\\
 	\hline
 \end{tabular}
 \subsubsection{\textbf{Caso d'uso: Creazione di un topic nel Forum}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 008}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 023}} \\
 	\hline
 	Specifica& Creazione di un topic nel Forum\\
 	\hline
@@ -481,7 +473,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 \subsubsection{\textbf{Caso d'uso: Creazione di un post nel Forum}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 009}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 023}} \\
 	\hline
 	Specifica& Creazione di un post nel Forum\\
 	\hline
@@ -505,7 +497,7 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 \subsubsection{\textbf{Caso d'uso: Caricamento di programmazioni}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 010}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 012}} \\
 	\hline
 	Specifica& Caricamento di programmazioni\\
 	\hline
@@ -514,16 +506,21 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
 	\hline
 	Scenario principale& \begin{enumerate}
-		\item da definire.
+		\item Da qualsiasi pagina del sito L'attore clicca su 'Le mie programmazioni' nel menù in alto a destra.
+		\item Il sistema visualizza la pagina delle programmazioni caricate.
+		\item L'attore clicca sul tasto 'Carica Programmazione'.
+		\item Il sistema visualizza la form per il caricamento del file.
+		\item L'attore sceglie l'anno scolastico, la classe e carica il file.
+		\item Il sistema archivia il documento nel database.
 	\end{enumerate}\\
 	\hline
-	Post-Condizioni& Il post viene aggiunto con successo.\\
+	Post-Condizioni& La programmazione viene aggiunta con successo.\\
 	\hline
 \end{tabular}
 \subsubsection{\textbf{Caso d'uso: Caricamento di modulistica e libri di testo}}
 \begin{tabular}{ |p{3cm}|p{9cm}|  }
 	\hline
-	\multicolumn{2}{|c|}{\textbf{RF - 011}} \\
+	\multicolumn{2}{|c|}{\textbf{RF - 010 / RF - 011}} \\
 	\hline
 	Specifica& Creazione di un post nel Forum\\
 	\hline
@@ -532,10 +529,15 @@ I requisiti funzionali sono stati suddivisi per categoria di utente (Fare riferi
 	Pre-Condizioni& L'attore deve possedere un account (fornito dalla scuola).\\
 	\hline
 	Scenario principale& \begin{enumerate}
-		\item da definire.
+		\item Da qualsiasi pagina del sito L'attore clicca sulla voce 'La mia modulistica' o 'I miei libri di testo' nel menù in alto a destra.
+		\item Il sistema visualizza la pagina dei libri o modulistiche caricate.
+		\item L'attore clicca sul tasto 'Carica Modulo' o 'Carica file di Libro di testo'.
+		\item Il sistema visualizza la form per il caricamento del file.
+		\item L'attore sceglie tra le opzioni mostrate.
+		\item Il sistema archivia il documento nel database.
 	\end{enumerate}\\
 	\hline
-	Post-Condizioni& Il post viene aggiunto con successo.\\
+	Post-Condizioni& Il file viene aggiunto con successo.\\
 	\hline
 \end{tabular}
 \normalsize
