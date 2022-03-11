@@ -1,0 +1,19 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Background}{3}%
+\contentsline {section}{\numberline {2}Obiettivo del progetto}{3}%
+\contentsline {subsection}{\numberline {2.1}Progettazione preliminare}{3}%
+\contentsline {section}{\numberline {3}Ambito del progetto (SCOPE)}{4}%
+\contentsline {subsection}{\numberline {3.1}In ambito}{4}%
+\contentsline {subsection}{\numberline {3.2}Fuori ambito}{4}%
+\contentsline {subsection}{\numberline {3.3}Programmazione della tempistica preliminare}{5}%
+\contentsline {section}{\numberline {4}Criteri di successo}{5}%
+\contentsline {section}{\numberline {5}Assunzioni e vincoli iniziali}{5}%
+\contentsline {section}{\numberline {6}Team e comunicazione}{6}%
+\contentsline {subsection}{\numberline {6.1}Definizione degli stakeholders}{6}%
+\contentsline {subsection}{\numberline {6.2}Parti interessate, Ruoli e responsabilità}{6}%
+\contentsline {subsection}{\numberline {6.3}Piano di comunicazione iniziale}{7}%
+\contentsline {section}{\numberline {7}Analisi dei rischi}{7}%
+\contentsline {section}{\numberline {8}Autorità del progetto}{7}%
+\contentsline {subsection}{\numberline {8.1}Allegati}{7}%
+\contentsline {subsection}{\numberline {8.2}Firme}{7}%

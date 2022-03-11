@@ -1,0 +1,321 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  8 FEB 2022 21:16
+entering extended mode
+**./ProjectCharterv0.2.tex
+(ProjectCharterv0.2.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-02-25> (D:\LaTeX\mikTex\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(D:\LaTeX\mikTex\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(D:\LaTeX\mikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTeX\mikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:\LaTeX\mikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTeX\mikTex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\LaTeX\mikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\LaTeX\mikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(D:\LaTeX\mikTex\tex/generic/babel\babel.sty
+Package: babel 2020/02/28 3.41 The Babel package
+
+(D:\LaTeX\mikTex\tex/generic/babel\switch.def
+File: switch.def 2020/02/28 3.41 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\LaTeX\mikTex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\LaTeX\mikTex\tex/latex/babel-italian\italian.ldf
+Language: italian 2019/11/16 v.1.4.03 Italian support for the babel system
+
+(D:\LaTeX\mikTex\tex/generic/babel\babel.def
+File: babel.def 2020/02/28 3.41 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen137
+
+(D:\LaTeX\mikTex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+\it@lettering=\count177
+\it@doublequoteactive=\count178
+\it@ISOcompliance=\count179
+))
+(D:\LaTeX\mikTex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count180
+)
+(D:\LaTeX\mikTex\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(D:\LaTeX\mikTex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(D:\LaTeX\mikTex\tex/generic/xkeyval\xkeyval.tex
+(D:\LaTeX\mikTex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count181
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(D:\LaTeX\mikTex\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(D:\LaTeX\mikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(D:\LaTeX\mikTex\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(D:\LaTeX\mikTex\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count182
+\mult@box=\box45
+\multicol@leftmargin=\dimen138
+\c@unbalance=\count183
+\c@collectmore=\count184
+\doublecol@number=\count185
+\multicoltolerance=\count186
+\multicolpretolerance=\count187
+\full@width=\dimen139
+\page@free=\dimen140
+\premulticols=\dimen141
+\postmulticols=\dimen142
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen143
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\c@minrows=\count188
+\c@columnbadness=\count189
+\c@finalcolumnbadness=\count190
+\last@try=\dimen144
+\multicolovershoot=\dimen145
+\multicolundershoot=\dimen146
+\mult@nat@firstbox=\box89
+\colbreak@box=\box90
+\mc@col@check@num=\count191
+))
+\ProjectCharterv0.2@idxfile=\write3
+\openout3 = `ProjectCharterv0.2.idx'.
+
+
+Writing index file ProjectCharterv0.2.idx
+(D:\LaTeX\mikTex\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box91
+)
+(ProjectCharterv0.2.aux)
+\openout1 = `ProjectCharterv0.2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (D:\LaTeX\mikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count193
+\scratchdimen=\dimen147
+\scratchbox=\box92
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen148
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks19
+) (D:\LaTeX\mikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Info: Redefining \it@ocap on input line 11.
+LaTeX Info: Redefining \it@ccap on input line 11.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 11.
+
+[1
+
+{C:/Users/theca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/10 Capretti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10 Camilletti
+ []
+
+
+Overfull \hbox (2.52753pt too wide) in paragraph at lines 28--39
+[][] 
+ []
+
+[1
+
+] (ProjectCharterv0.2.toc)
+\tf@toc=\write4
+\openout4 = `ProjectCharterv0.2.toc'.
+
+ [2
+
+]
+runsystem(makeindex ProjectCharterv0.2.idx)...executed (allowed).
+
+ (ProjectCharterv0.2.ind) [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/cmr/m/n/10 Redazione do-cu-men-ta-zio-ne pro-ject
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10 Ambiente di svi-lup-po - CSM
+ []
+
+[5]
+Underfull \hbox (badness 2980) in paragraph at lines 177--177
+\OT1/cmr/m/n/10 gi-co Sta-ta-le \G. e M.
+ []
+
+
+Overfull \hbox (32.43306pt too wide) in paragraph at lines 165--190
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]\OT1/cmr/m/n/10 Smart-
+ []
+
+
+Overfull \hbox (56.43303pt too wide) in paragraph at lines 191--198
+[]  
+ []
+
+[6
+
+]
+Overfull \hbox (15.98027pt too wide) in paragraph at lines 200--212
+[]  
+ []
+
+[7] (ProjectCharterv0.2.aux) ) 
+Here is how much of TeX's memory you used:
+ 2681 strings out of 481311
+ 37544 string characters out of 2923499
+ 297705 words of memory out of 3000000
+ 18162 multiletter control sequences out of 15000+200000
+ 534797 words of font info for 32 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,9n,32p,813b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\theca\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/LaTeX/mikTex/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb><D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LaTeX/mikTex/font
+s/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on ProjectCharterv0.2.pdf (8 pages, 82341 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
