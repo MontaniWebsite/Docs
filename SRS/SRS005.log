@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  4 MAR 2022 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  11 MAR 2022 23:53
 entering extended mode
-**./SRS004.tex
-(SRS004.tex
+**./SRS005.tex
+(SRS005.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25> (D:\LaTeX\mikTex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -304,17 +304,17 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \colbreak@box=\box90
 \mc@col@check@num=\count267
 ))
-\SRS004@idxfile=\write3
-\openout3 = `SRS004.idx'.
+\SRS005@idxfile=\write3
+\openout3 = `SRS005.idx'.
 
 
-Writing index file SRS004.idx
+Writing index file SRS005.idx
 (D:\LaTeX\mikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count268
 \l__pdf_internal_box=\box91
-) (SRS004.aux)
-\openout1 = `SRS004.aux'.
+) (SRS005.aux)
+\openout1 = `SRS005.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -368,10 +368,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
- (SRS004.out)
-(SRS004.out)
+ (SRS005.out)
+(SRS005.out)
 \@outlinefile=\write4
-\openout4 = `SRS004.out'.
+\openout4 = `SRS005.out'.
 
 LaTeX Info: Redefining \it@ocap on input line 13.
 LaTeX Info: Redefining \it@ccap on input line 13.
@@ -443,16 +443,16 @@ been already used, duplicate ignored
 l.53 	\clearpage
                  [1
 
-] (SRS004.toc)
+] (SRS005.toc)
 \tf@toc=\write5
-\openout5 = `SRS004.toc'.
+\openout5 = `SRS005.toc'.
 
  [2
 
 ]
-runsystem(makeindex SRS004.idx)...executed (allowed).
+runsystem(makeindex SRS005.idx)...executed (allowed).
 
- (SRS004.ind)
+ (SRS005.ind)
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []\OT1/cmr/m/n/10 Personale tec-ni-co
  []
@@ -512,22 +512,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []\OT1/cmr/m/n/10 RF -
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 208--208
-[]\OT1/cmr/m/n/10 Visualizzazione del-le co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]\OT1/cmr/m/n/10 RF -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 []\OT1/cmr/m/n/10 RF -
  []
 
@@ -537,50 +527,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--222
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 []\OT1/cmr/m/n/10 RF -
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+[]\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 235--235
 []\OT1/cmr/m/n/10 Caricamento del-la pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 []\OT1/cmr/m/n/10 RF -
  []
 
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []\OT1/cmr/m/n/10 RF -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []\OT1/cmr/m/n/10 RF -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]\OT1/cmr/m/n/10 RF -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]\OT1/cmr/m/n/10 RF -
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 257--257
-[]\OT1/cmr/m/n/10 Il nuo-vo si-to de-ve pre-
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 257--257
-\OT1/cmr/m/n/10 sen-ta-re la stes-sa of-fer-ta
  []
 
 
@@ -589,18 +564,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--259
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 259--259
-\OT1/cmr/m/n/10 ri per la vi-sua-liz-za-zio-ne
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []\OT1/cmr/m/n/10 RF -
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 261--261
-\OT1/cmr/m/n/10 pa-no-ra-mi-ca del-la sto-ria
+Underfull \hbox (badness 1436) in paragraph at lines 261--261
+[]\OT1/cmr/m/n/10 Il nuo-vo si-to de-ve pre-
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 261--261
+\OT1/cmr/m/n/10 sen-ta-re la stes-sa of-fer-ta
  []
 
 
@@ -609,28 +584,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--263
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 263--263
+Underfull \hbox (badness 1038) in paragraph at lines 263--263
+\OT1/cmr/m/n/10 ri per la vi-sua-liz-za-zio-ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 265--265
+\OT1/cmr/m/n/10 pa-no-ra-mi-ca del-la sto-ria
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 267--267
 []\OT1/cmr/m/n/10 Il si-to web de-ve pre-ve-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]\OT1/cmr/m/n/10 RF -
- []
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 274--274
-\OT1/cmr/m/n/10 dar-diz-za-ta e fa-cil-men-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
-[]\OT1/cmr/m/n/10 RF -
- []
-
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 278--278
+\OT1/cmr/m/n/10 dar-diz-za-ta e fa-cil-men-te
  []
 
 
@@ -639,128 +624,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--280
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 []\OT1/cmr/m/n/10 RF -
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[]\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]\OT1/cmr/m/n/10 RF -
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 294--294
 []\OT1/cmr/m/n/10 Il si-to web de-ve pre-ve-
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 290--290
+Underfull \hbox (badness 2393) in paragraph at lines 294--294
 \OT1/cmr/m/n/10 de-re un si-ste-ma di lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []\OT1/cmr/m/n/10 RF -
  []
 
-[8]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 296--315
+
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 300--319
 []  
  []
 
-[9]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 317--336
+[9
+
+]
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 321--340
 []  
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 337--356
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 341--360
 []  
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 357--382
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 361--386
 []  
  []
 
 [10
 
 ]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 383--409
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 387--413
 []  
  []
 
 [11]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 410--430
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 414--434
 []  
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 431--451
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 435--455
 []  
  []
 
 [12]
-Underfull \hbox (badness 1783) in paragraph at lines 466--467
+Underfull \hbox (badness 1783) in paragraph at lines 470--471
 []\OT1/cmr/m/n/10 Il si-ste-ma vi-sua-liz-za i To-pic esi-sten-ti in quel-la
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 452--473
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 456--477
 []  
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 488--489
+Underfull \hbox (badness 1783) in paragraph at lines 492--493
 []\OT1/cmr/m/n/10 Il si-ste-ma vi-sua-liz-za i To-pic esi-sten-ti in quel-la
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 474--497
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 478--501
 []  
  []
 
 [13]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 498--520
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 502--524
 []  
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 521--544
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 525--548
 []  
  []
 
-[14]
-Underfull \hbox (badness 3895) in paragraph at lines 569--570
-[]\OT1/cmr/m/n/10 Il si-to web de-ve
- []
-
-[15] [16]
-Underfull \hbox (badness 3895) in paragraph at lines 656--657
-[]\OT1/cmr/m/n/10 Il si-to web de-ve
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 656--657
-\OT1/cmr/m/n/10 ma di tra-du-zio-ne
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 662.
-[17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 662.
- (SRS004.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 662.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 662.
-
-
-Package rerunfilecheck Warning: File `SRS004.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SRS004.out':
-(rerunfilecheck)             Before: EC662A494E2C78EEE0047ABBEBC4CEFC;2461
-(rerunfilecheck)             After:  D1151559311E2B392713DBDAC9551B46;2498.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 662.
+[14] [15] [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
+ (SRS005.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 666.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
+Package rerunfilecheck Info: File `SRS005.out' has not changed.
+(rerunfilecheck)             Checksum: D1151559311E2B392713DBDAC9551B46;2498.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
  ) 
 Here is how much of TeX's memory you used:
  6905 strings out of 481311
  101879 string characters out of 2923499
- 395382 words of memory out of 3000000
+ 392382 words of memory out of 3000000
  22181 multiletter control sequences out of 15000+200000
  534630 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -769,9 +745,9 @@ Here is how much of TeX's memory you used:
 onts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTeX/mikTex/fonts/type1/public/am
 sfonts/cm/cmr10.pfb><D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on SRS004.pdf (18 pages, 145502 bytes).
+Output written on SRS005.pdf (18 pages, 145647 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
+ 327 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

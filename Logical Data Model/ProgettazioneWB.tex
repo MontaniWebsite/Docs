@@ -53,6 +53,8 @@
 		\hline
 		002   & Modifiche e correzioni    &25/02/2022&   Camilletti Samuele\\
 		\hline
+		003   & Modifiche e correzioni    &10/03/2022&   Camilletti Samuele\\
+\hline
 	\end{tabular}
 	
 	\clearpage
@@ -72,7 +74,7 @@
 	\subsection{\textbf{Commessa del cliente}} 
 	\flushleft
 	\normalsize
-	L'Istituto Tecnico Tecnologico "G. e M. Montani" di Fermo ha incaricato, attraverso il committente Trasatti Daniele, il restyling grafico e funzionale del sito web scolastico, mirato a migliorare le modalità di usufruizione dei servizi scolastici dell'Istituto.
+	L'Istituto Tecnico Tecnologico "G. e M. Montani" di Fermo ha incaricato, attraverso il committente Trasatti Daniele, il restyling grafico e funzionale del sito web scolastico, al fine di aggiornare le modalità di usufruizione dei servizi scolastici dell'Istituto.
 	 \subsection{\textbf{Obiettivo}} 
 	\flushleft
 	\normalsize
@@ -86,16 +88,16 @@
 	Il menù laterale sinistro, con le diverse funzionalità, risulta confusionario e inaccessibile, per via della lunga lista di servizi offerti. In particolare da dispositivi mobili non è responsive e necessita lo scorrimento fino a fine pagina per permetterne la visualizzazione.\\
 	L'header della pagina essendo un'immagine non presenta le caratteristiche di responsive ed accessibilità.
 	Sono infine numerose le pagine del sito non funzionanti e non più aggiornate, le quali necessitano una completa revisione.
-	Dopo un'attenta analisi della situazione attuale, si è deciso di prendere in considerazione il modello standard fornito dal Team per la Trasformazione Digitale e di utilizzarlo come tema base di partenza.
+	Dopo un'attenta analisi della situazione attuale, dei siti concorrenti, e dell'ambito di applicazione si è deciso di prendere in considerazione il modello standard fornito dal Team per la Trasformazione Digitale e di utilizzarlo come tema base di partenza.
 	La dimostrazione grafica del tema in questione è reperibile al link \url{http://design-italia.marcogargano.com/}.
-	
+	\includegraphics[scale=0.18]{ittmontaniex.png}	
 	\subsection{\textbf{Piattaforma WordPress}}
 	WordPress è una piattaforma software di content management system (CMS) che, operando lato server in un database, consente la creazione di un sito Internet formato da contenuti testuali o multimediali, gestibili ed aggiornabili in maniera dinamica; facendo uso di codice HTML CSS e JavaScript. Wordpress mette a disposizione anche plugin e temi per la personalizzazione del sito web. Wordpress necessita di un database per la memorizzazione di tutte le informazioni relative al sito e un Web Server Apache. Per la mantenimento del web server e del relativo database viene utilizzato il servizio hosting Aruba. Il dominio (istitutomontani.edu.it) segue le normative relative agli indirizzi istituzionali.	
 	
-	\includegraphics[scale=0.18]{ittmontaniex.png}
+
 	\subsection{\textbf{Analisi e progettazione prototipo in WordPress}}
-	Dopo un'attenta analisi dei requisiti funzionali e non funzionali descritti nel documento di Specifica dei Requisiti (Allegato A), si è deciso di utilizzare il CMS WordPress per la realizzazione di un prototipo grafico da mostrare al cliente, modificando il template istituzionale. 
-	\includegraphics[scale=0.18]{ittmontaniex.png}
+	Dopo un'attenta analisi dei requisiti funzionali e non funzionali descritti nel documento di Specifica dei Requisiti (Allegato A), si è deciso di utilizzare il CMS WordPress per la realizzazione di un prototipo grafico da mostrare al cliente, modificando il template istituzionale (sezione 2.1). 
+	\includegraphics[scale=0.28]{prototipo.png}
 	Il prototipo grafico della home page è stato approvato ma sono state commissionati diverse revisioni, le quali sono state aggiunte al documento SRS. L'accordo finale raggiunto con il cliente prevede:
 	\begin{itemize}
 	    \item Un header rinnovato con un menù a tendina suddiviso per categoria di utente (le categorie di utente sono descritte nel documento di specifica dei requisiti).
@@ -111,12 +113,14 @@
 
 	Un caso d’uso è una sequenza di transizioni in un sistema il cui compito è di conseguire un risultato di valore misurabile per un singolo attore del sistema.\\
     L’attore specifica un ruolo assunto da un utente o altre entità che interagisce con il sistema nell’ambito di un’unità di funzionamento.\\
-    Lo scenario rappresenta le categorie di utenti che interagiscono con il sistema informativo, in particolare visitatore, studente, personale, segreteria ed amministratore.
-	\includegraphics[scale=0.2]{usecase.drawio.png}
+    Lo scenario rappresenta le categorie di utenti che interagiscono con il sistema informativo, in particolare visitatore, studente, personale, segreteria ed amministratore.\\
+	\includegraphics[scale=0.4]{usecase.drawio.png}\\
 		
 	\subsection{\textbf{Responsive}}
 
-	Per implementare il requisito non funzionale relativo alla responsiveness del sito è stata sfruttata la caratteristica dei file CSS (Cascading Style Sheets) con i quali, aggiungendo una parte di codice dedicata alla visualizzazione su schermi di risoluzione differente, è stato possibile rendere portabile il sito.
+	Per implementare il requisito non funzionale relativo alla responsiveness del sito è stata sfruttata la caratteristica dei file CSS (Cascading Style Sheets) con i quali, aggiungendo una parte di codice dedicata alla visualizzazione su schermi di risoluzione differente, è stato possibile rendere portabile il sito. Il codice relativo alla responsiveness è stato aggiunto come CSS Aggiuntivo nella personalizzazione del tema WordPress.
+	
+	\clearpage
 	
 	\subsection{\textbf{Forum}}
 
@@ -134,12 +138,84 @@
 	    \item Login tramite API Spaggiari.
 	\end{itemize}
 	Dopo aver studiato la fattibilità delle opzioni, l'accesso tramite Google è risultato il più accessibile e facile da implementare. Utilizzando la piattaforma di interfacciamento Google Cloud Platform, la quale consente ad una piattaforma istituzionale di aver accesso ad un API per il login. Il collegamento tra la piattaforma ufficiale Google e Login di WordPress è stato implementato attraverso un plugin di accesso (Google Login), il quale è stato configurato per accettare solo email istituzionali.\\
-	Per differenziare le categorie di utente (studente, personale, segreteria e amministratore) sono state utilizzate i ruoli di WordPress. Agli studenti viene automaticamente assegnato il ruolo Sottoscrittore, ai docenti il ruolo Contributore, alla segreteria il ruolo Editore e il ruolo Amministratore per il gestore del sito. L'assegnazione dei permessi è stata implementata attraverso una funzione 'hook' collegata alla registrazione di WordPress, la quale legge un file contenente le email istituzionali dei docenti e assegna di conseguenza i permessi.\\   
+	La piattaforma Google è stata inoltre configurata affinché accettasse solo email con dominio istituzionale (@istitutomontani.edu.it) affinché non fosse possibile la registrazione da parte di utenti esterni all'organizzazione.
+	La suddivisione per categorie di utente viene effettuata nel documento di Specifica dei Requsiti.
+	Per differenziare le categorie di utente lato back-end (studente, personale, segreteria e amministratore) sono stati utilizzati i ruoli di WordPress. Agli studenti viene automaticamente assegnato il ruolo Sottoscrittore, ai docenti il ruolo Contributore, alla segreteria il ruolo Editore e il ruolo Amministratore per il gestore del sito. L'assegnazione dei permessi è stata implementata attraverso una funzione 'hook' collegata alla registrazione di WordPress, la quale legge un file contenente le email istituzionali dei docenti e assegna di conseguenza i permessi.\\ In caso contrario il ruolo che viene assegnato in maniera standardizzata è il ruolo di Sottoscrittore, ovvero docente.   
 	
+	\clearpage
 	
 	\subsection{\textbf{Progettazione lato Back-end}}
-	La seguente progettazione illustra il lato Front-End e Back-end del sito e il rapporto dei soggetti coinvolti con esso.	
-	\includegraphics[scale=0.35]{UseCaseDiagram.png}
+	\subsubsection{\textbf{Cenni teorici}}
+	Un Database è un insieme di archivi di dati ben organizzati e ben strutturati , in modo
+	che possano costituire una base di lavoro per utenti diversi con programmi diversi.
+	Le caratteristiche di un database sono:
+	\begin{enumerate}
+		\item consistenza (i dati devono essere significativamente e effettivamente utilizzabili
+		nelle applicazioni aziendali);
+		\item sicurezza (si deve impedire che il database si danneggi);
+		\item integrità (si deve garantire la conservazione di dati senza la loro perdita);
+		\item eliminazione della ridondanza dei dati;
+		\item condivisibilità (possibilità per gli utenti di accedere ai dati comuni ed
+		elaborarli).
+	\end{enumerate}
+	Lo sviluppo della base di dati di un’applicazione, necessariamente passa attraverso
+	diverse fasi di progettazione dette:
+	\begin{itemize}
+		\item progettazione concettuale, rappresenta la realtà dei dati e le associazioni tra
+		essi (modello E/R);
+		\item progettazione logica, descrive come i dati sono organizzati negli archivi;
+		descrive la composizione e il formato dei dati, questo livello inoltre viene
+		derivato dal livello concettuale;
+		\item progettazione fisica, rappresenta l’effettiva installazione degli archivi su
+		memoria di massa e descrive l’ubicazione dei dati.
+	\end{itemize}
+	Pertanto, dopo aver definito l’analisi della realtà da rappresentare, con eventuali ipotesi
+	aggiuntive e semplificative (scaturite anche dalla lettura del documento di fattibilità
+	con analisi dei requisiti), si procede alla stesura del modello Entità/Associazioni (E/R).
+	Il modello E/R è uno strumento per analizzare le caratteristiche di una realtà in modo
+	indipendente dagli eventi che accadono in essa, cioè per costruire un modello
+	concettuale dei dati indipendente dalle applicazioni che li usano.
+	Si concretizza in una rappresentazione grafica, che viene detta Schema Concettuale.
+	
+	ISTITUTO TECNICO TECNOLOGICO “G. e M. MONTANI” - 5°IN B a.s. 2020 – ‘21 10/36
+	E/R (Entity/Relationship).
+	Gli elementi di un modello E/R sono:
+	\begin{itemize}
+		\item L’entità è solitamente un oggetto che può essere sia concreto che astratto che possiede
+		significato anche quando viene considerato da solo.
+		Le entità sono classificate secondo un criterio di omogeneità definendo il tipo di entità
+		attraverso un nome logico che le riferisce.
+		\item L’Associazione, tra una o più entità, è un legame che stabilisce un'interazione tra le
+		istanze che costituiscono le entità, pertanto vengono indicate attraverso verbi.
+		Le associazioni hanno un grado che è dato dal numero di entità che partecipano
+		all’associazione.
+		\item Gli attributi sono delle specifiche che definiscono le proprietà di un oggetto.
+		È possibile, inoltre, definire vincoli di cardinalità anche sugli attributi, con due scopi:
+		- indicare l’opzionalità;
+		- indicare attributi multivalore.
+	\end{itemize}
+	Si indica con il termine chiave o chiave primaria un insieme minimale di attributi che
+	permettono di distinguere tra loro le istanze di una stessa entità.
+	Le associazioni tra entità
+	La molteplicità di un’associazione è il numero possibile di istanze di un’entità che
+	viene messo in corrispondenza con un’istanza dell’altra identità che partecipa
+	all’associazione.
+	Le associazioni possono essere di 3 tipi generalmente:
+	\begin{itemize}
+		\item Uno a Uno (biunivoche)
+		Un'entità di questo tipo è identificata da una entità proprietario mediante una relazione
+		a cui partecipa con vincolo (1:1). A ogni istanza della prima entità si deve associare
+		una sola istanza della seconda entità e viceversa.
+		\item Uno a molti (semplice)
+		Ogni istanza della prima entità si può associare a una o più istanze della seconda entità
+		(1:n), mentre per ogni istanza della seconda entità si deve associare una sola istanza
+		della prima.
+		\item Molti a Molti (complessa).
+		A ogni istanza della prima entità si può associare a una o più istanze della seconda
+		entità (n:m), mentre per ogni istanza della seconda entità si può associare a una o più istanze della prima entità.
+	\end{itemize}
+	Il livello di progettazione concettuale si conclude dopo aver realizzato lo schema E/R.
+	La teoria riguardante il modello logico è descritta successivamente.
 	\subsubsection{\textbf{Analisi Database}}
 	Per soddisfare i requisiti RF-005,RF-009 e RF-010 relativi al documento della Specifica dei Requisiti, è stato necessario progettare un ampliamento del Database preesistente di Wordpress al fine di consentire una gestione della repository efficiente nella medesima base di dati.
 	In particolare, si intende gestire i dati relativi alla modulistica, libri di testo scolastici, progettualità e programmazioni scolastiche.
@@ -217,19 +293,39 @@
 	Una Progetto può allegare più Foto.\\
 	Una Foto deve essere allegata a un Progetto.\\
 	\subsubsection{\textbf{Modello E/R}}
-\includegraphics[scale=0.4]{modelloer.png}
+	\includegraphics[scale=0.4]{modelloer.png}
 	\subsubsection{\textbf{Modello logico}}
-	%\includegraphics[scale=0.5]{modellologico.png}
+	Il modello logico è un modello di rappresentazione dei dati di un database il quale fa uso del concetto matematico della relazione. Dal modello concettuale è possibile ottenere il modello logico mediante le regole di derivazione:\\
+	\begin{enumerate}
+		\item Ogni entità diventa attributo della relazione.
+		\item Ogni attributo di un'entità diventa attributo della relazione.\\
+		\item Ogni attributo della relazione eredita le caratteristiche dell'attributo dell'entità da cui deriva.
+		\item L'identificatore univoco o chiave campione diventa la chiave primaria della relazione derivata.
+		\item L'associazione uno ad uno diventa un'unica relazione che conterrà gli attributi della prima e della seconda relazione con un'unica chiave primaria.
+		\item L'associazione uno ad molti viene rappresentata aggiungendo all'entità che ricopre il ruolo di "molti" la chiave primaria della relazione ad "uno" sotto forma di chiave esterna.
+		\item L'associazione molti a molti genera una nuova relazione composta dalle chiave primarie delle due entità coinvolte con gli eventuali attributi dell'associazione.
+	\end{enumerate}
+	
+	Seguendo le regole di derivazione dal modello concettuale a quello logico, e seguendo le tre regole di normalizzazione le quali definiscono:
+	\begin{itemize}
+		\item Prima forma normale: Ogni riga deve contenere lo stesso numero di colonne, i valori che compongono ogni colonna devono avere lo stesso dominio e devono rappresentare informazioni elementari, ed ogni riga deve essere diversa dalle altre.\\
+		\item Seconda forma normale: Tutti gli attributi non-chiave devono dipendere dall'intera chiave.\\
+		\item Terza forma normale: Tutti gli attributi non-chiave devono dipendere direttamente dalla chiave. cioè non devono esserci attributi che dipendono da altri attributi non-chiave.
+	\end{itemize}
+	sono state derivate le seguenti tabelle:\\
+	\includegraphics[scale=0.5]{modellologico.png}\\
 	\subsubsection{\textbf{Modello fisico}}
-%\includegraphics[scale=0.5]{modellologico.png}
+	Il modello fisico è reperibile nel file montaniwebsitedb.sql\\
 	\subsection{\textbf{Browser supportati}}
 	Il sito web è accessibile da qualsiasi device connesso ad internet, attraverso l'utilizzo di un browser web e digitando l'indirizzo istitutomontani.edu.it.\\
 	Al caricamento della pagina verrà mostrata l'homepage, dalla quale si potrà scegliere il facilmente il servizio che l'utente sta cercando. 
 	
 	\subsection{\textbf{Ottimizzazioni al motore di ricerca}}
-	SEO, ....	
+	SEO, Google Analytics, ...	
 \clearpage
-	
+
+	\subsection{\textbf{Struttura del sito}}
+	\includegraphics[scale=0.2]{struttura.jpeg}\\
 \section{\textbf{Ulteriori specifiche}}
 Ulteriori specifiche, se necessarie, verranno aggiunte nelle prossime versioni del seguente documento.
 \end{document}
