@@ -1,0 +1,28 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\textbf {Interfaccia}}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Wordpress}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\textbf {Dashboard}}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textbf {Tema}}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\textbf {Plugin}}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\textbf {Impostazioni aggiuntive}}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Pagine}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\textbf {Creazione nuova pagina}}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\textbf {Elementor}}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\textbf {Homepage}}{6}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}\textbf {Slider Avvisi}}{6}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}\textbf {Slider Indirizzi}}{7}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}\textbf {Slider Notizie in evidenza}}{7}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}\textbf {Colonna News}}{7}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}\textbf {Colonna "Servizi"}}{7}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}\textbf {PON}}{7}{subsubsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}\textbf {Forum}}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}\textbf {Indirizzi}}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}\textbf {Webinar}}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}\textbf {Repository}}{7}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}\textbf {Libri di Testo}}{7}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}\textbf {Modulistica}}{7}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}\textbf {Programmazioni}}{7}{subsubsection.3.7.3}%
+\contentsline {section}{\numberline {4}Articoli}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\textbf {Categorie}}{8}{subsection.4.1}%
