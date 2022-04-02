@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  11 MAR 2022 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  2 APR 2022 20:41
 entering extended mode
 **./ProgettazioneWB.tex
 (ProgettazioneWB.tex
@@ -479,11 +479,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []\OT1/cmr/m/n/10 Camilletti
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]\OT1/cmr/m/n/10 Camilletti
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 	\clearpage
+l.63 	\clearpage
                  [1
 
 ] (ProgettazioneWB.toc)
@@ -496,29 +501,29 @@ l.60 	\clearpage
 runsystem(makeindex ProgettazioneWB.idx)...executed (allowed).
 
  (ProgettazioneWB.ind)
-<ittmontaniex.png, id=138, 1927.2pt x 1084.05pt>
+<ittmontaniex.png, id=163, 1927.2pt x 1084.05pt>
 File: ittmontaniex.png Graphic file (type png)
 <use ittmontaniex.png>
-Package pdftex.def Info: ittmontaniex.png  used on input line 93.
+Package pdftex.def Info: ittmontaniex.png  used on input line 96.
 (pdftex.def)             Requested size: 346.88104pt x 195.12057pt.
  [3
 
 ]
-<prototipo.png, id=146, 1434.10782pt x 697.10437pt>
+<prototipo.png, id=171, 1434.10782pt x 697.10437pt>
 File: prototipo.png Graphic file (type png)
 <use prototipo.png>
-Package pdftex.def Info: prototipo.png  used on input line 100.
+Package pdftex.def Info: prototipo.png  used on input line 103.
 (pdftex.def)             Requested size: 401.54745pt x 195.18788pt.
 
-Overfull \hbox (31.66162pt too wide) in paragraph at lines 99--102
+Overfull \hbox (31.66162pt too wide) in paragraph at lines 102--105
 [] 
  []
 
 [4 <./ittmontaniex.png> <./prototipo.png>]
-<usecase.drawio.png, id=153, 708.6475pt x 704.6325pt>
+<usecase.drawio.png, id=178, 708.6475pt x 704.6325pt>
 File: usecase.drawio.png Graphic file (type png)
 <use usecase.drawio.png>
-Package pdftex.def Info: usecase.drawio.png  used on input line 117.
+Package pdftex.def Info: usecase.drawio.png  used on input line 120.
 (pdftex.def)             Requested size: 283.45398pt x 281.848pt.
  [5 <./usecase.drawio.png>] [6
 
@@ -526,93 +531,157 @@ Package pdftex.def Info: usecase.drawio.png  used on input line 117.
 [7
 
 ] [8]
-<libro.png, id=177, 130.23656pt x 100.12407pt>
+<libro.png, id=202, 130.23656pt x 100.12407pt>
 File: libro.png Graphic file (type png)
 <use libro.png>
-Package pdftex.def Info: libro.png  used on input line 241.
+Package pdftex.def Info: libro.png  used on input line 244.
 (pdftex.def)             Requested size: 65.11812pt x 50.0619pt.
-<annoscolastico.png, id=178, 158.84344pt x 104.64093pt>
+<annoscolastico.png, id=203, 158.84344pt x 104.64093pt>
 File: annoscolastico.png Graphic file (type png)
 <use annoscolastico.png>
-Package pdftex.def Info: annoscolastico.png  used on input line 243.
+Package pdftex.def Info: annoscolastico.png  used on input line 246.
 (pdftex.def)             Requested size: 79.42152pt x 52.32033pt.
-<articolazione.png, id=179, 115.18031pt x 72.27pt>
+<articolazione.png, id=204, 115.18031pt x 72.27pt>
 File: articolazione.png Graphic file (type png)
 <use articolazione.png>
-Package pdftex.def Info: articolazione.png  used on input line 245.
+Package pdftex.def Info: articolazione.png  used on input line 248.
 (pdftex.def)             Requested size: 57.59pt x 36.1349pt.
-<classe.png, id=180, 134.75343pt x 112.92188pt>
+<classe.png, id=205, 134.75343pt x 112.92188pt>
 File: classe.png Graphic file (type png)
 <use classe.png>
-Package pdftex.def Info: classe.png  used on input line 247.
+Package pdftex.def Info: classe.png  used on input line 250.
 (pdftex.def)             Requested size: 67.37654pt x 56.46078pt.
-<modulistica.png, id=181, 137.01187pt x 135.50626pt>
+<modulistica.png, id=206, 137.01187pt x 135.50626pt>
 File: modulistica.png Graphic file (type png)
 <use modulistica.png>
-Package pdftex.def Info: modulistica.png  used on input line 249.
+Package pdftex.def Info: modulistica.png  used on input line 252.
 (pdftex.def)             Requested size: 68.50577pt x 67.75294pt.
-<programmazione.png, id=182, 137.01187pt x 178.41656pt>
+<programmazione.png, id=207, 137.01187pt x 178.41656pt>
 File: programmazione.png Graphic file (type png)
 <use programmazione.png>
-Package pdftex.def Info: programmazione.png  used on input line 251.
+Package pdftex.def Info: programmazione.png  used on input line 254.
 (pdftex.def)             Requested size: 68.50577pt x 89.20805pt.
-<progetto.png, id=183, 134.00063pt x 171.64125pt>
+<progetto.png, id=208, 134.00063pt x 171.64125pt>
 File: progetto.png Graphic file (type png)
 <use progetto.png>
-Package pdftex.def Info: progetto.png  used on input line 253.
+Package pdftex.def Info: progetto.png  used on input line 256.
 (pdftex.def)             Requested size: 67.00014pt x 85.8204pt.
  [9 <./libro.png> <./annoscolastico.png> <./articolazione.png> <./classe.png> <
 ./modulistica.png> <./programmazione.png>]
-<foto.png, id=195, 118.94438pt x 129.48375pt>
+<foto.png, id=220, 118.94438pt x 129.48375pt>
 File: foto.png Graphic file (type png)
 <use foto.png>
-Package pdftex.def Info: foto.png  used on input line 255.
+Package pdftex.def Info: foto.png  used on input line 258.
 (pdftex.def)             Requested size: 59.47203pt x 64.7417pt.
-<tipoprogetto.png, id=196, 112.16907pt x 102.3825pt>
+<tipoprogetto.png, id=221, 112.16907pt x 102.3825pt>
 File: tipoprogetto.png Graphic file (type png)
 <use tipoprogetto.png>
-Package pdftex.def Info: tipoprogetto.png  used on input line 257.
+Package pdftex.def Info: tipoprogetto.png  used on input line 260.
 (pdftex.def)             Requested size: 56.08438pt x 51.19112pt.
-<modelloer.png, id=197, 1036.62282pt x 639.13782pt>
+<modelloer.png, id=222, 1036.62282pt x 639.13782pt>
 File: modelloer.png Graphic file (type png)
 <use modelloer.png>
-Package pdftex.def Info: modelloer.png  used on input line 296.
+Package pdftex.def Info: modelloer.png  used on input line 299.
 (pdftex.def)             Requested size: 414.64178pt x 255.65059pt.
 
-Overfull \hbox (44.75595pt too wide) in paragraph at lines 296--297
+Overfull \hbox (44.75595pt too wide) in paragraph at lines 299--300
 []  
  []
 
 [10 <./progetto.png> <./foto.png> <./tipoprogetto.png>]
-<modellologico.png, id=205, 580.41844pt x 412.54124pt>
+<modellologico.png, id=230, 580.41844pt x 412.54124pt>
 File: modellologico.png Graphic file (type png)
 <use modellologico.png>
-Package pdftex.def Info: modellologico.png  used on input line 316.
+Package pdftex.def Info: modellologico.png  used on input line 319.
 (pdftex.def)             Requested size: 290.20851pt x 206.27011pt.
  [11 <./modelloer.png>]
 [12 <./modellologico.png>]
-<struttura.jpeg, id=224, 1473.505pt x 3118.65125pt>
+<struttura.jpeg, id=249, 1473.505pt x 3118.65125pt>
 File: struttura.jpeg Graphic file (type jpg)
 <use struttura.jpeg>
-Package pdftex.def Info: struttura.jpeg  used on input line 328.
+Package pdftex.def Info: struttura.jpeg  used on input line 332.
 (pdftex.def)             Requested size: 294.69579pt x 623.71921pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
- [13
+<navbar.png, id=250, 1230.09563pt x 168.63pt>
+File: navbar.png Graphic file (type png)
+<use navbar.png>
+Package pdftex.def Info: navbar.png  used on input line 334.
+(pdftex.def)             Requested size: 393.63864pt x 53.96269pt.
 
- <./struttura.jpeg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+Overfull \hbox (23.7528pt too wide) in paragraph at lines 334--334
+[]  
+ []
+
+[13
+
+ <./struttura.jpeg>] [14 <./navbar.png>]
+<indirizzi.jpeg, id=268, 1794.705pt x 186.6975pt>
+File: indirizzi.jpeg Graphic file (type jpg)
+<use indirizzi.jpeg>
+Package pdftex.def Info: indirizzi.jpeg  used on input line 430.
+(pdftex.def)             Requested size: 358.93465pt x 37.33884pt.
+<news.png, id=269, 1180.41pt x 324.46219pt>
+File: news.png Graphic file (type png)
+<use news.png>
+Package pdftex.def Info: news.png  used on input line 432.
+(pdftex.def)             Requested size: 401.33409pt x 110.31567pt.
+
+Overfull \hbox (31.44826pt too wide) in paragraph at lines 432--432
+[][]  
+ []
+
+<news2.png, id=270, 810.77907pt x 465.23813pt>
+File: news2.png Graphic file (type png)
+<use news2.png>
+Package pdftex.def Info: news2.png  used on input line 435.
+(pdftex.def)             Requested size: 324.30588pt x 186.09195pt.
+<servizi.png, id=271, 319.94531pt x 531.48563pt>
+File: servizi.png Graphic file (type png)
+<use servizi.png>
+Package pdftex.def Info: servizi.png  used on input line 439.
+(pdftex.def)             Requested size: 127.97585pt x 212.59048pt.
+<footer.png, id=272, 1154.81438pt x 211.54031pt>
+File: footer.png Graphic file (type png)
+<use footer.png>
+Package pdftex.def Info: footer.png  used on input line 443.
+(pdftex.def)             Requested size: 404.19109pt x 74.0402pt.
+
+Overfull \hbox (34.30525pt too wide) in paragraph at lines 442--443
+[]  
+ []
+
+[15
+
+ <./indirizzi.jpeg> <./news.png> <./news2.png> <./servizi.png>]
+<indirizzo1.jpg, id=280, 1011.02719pt x 588.69937pt>
+File: indirizzo1.jpg Graphic file (type jpg)
+<use indirizzo1.jpg>
+Package pdftex.def Info: indirizzo1.jpg  used on input line 448.
+(pdftex.def)             Requested size: 404.40372pt x 235.47557pt.
+
+Overfull \hbox (34.51788pt too wide) in paragraph at lines 447--448
+[]  
+ []
+
+<forum.png, id=281, 1132.23pt x 457.71pt>
+File: forum.png Graphic file (type png)
+<use forum.png>
+Package pdftex.def Info: forum.png  used on input line 455.
+(pdftex.def)             Requested size: 339.67162pt x 137.31406pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+[16 <./footer.png> <./indirizzo1.jpg> <./forum.png>] [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (ProgettazioneWB.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `ProgettazioneWB.out' has not changed.
-(rerunfilecheck)             Checksum: 1D879526C00BF3E4BCF6A2F36592021D;1628.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
+(rerunfilecheck)             Checksum: C345F2E3D647125382645952F7041132;1979.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 7415 strings out of 481311
- 110125 string characters out of 2923499
- 401003 words of memory out of 3000000
- 22715 multiletter control sequences out of 15000+200000
+ 7495 strings out of 481311
+ 111146 string characters out of 2923499
+ 401006 words of memory out of 3000000
+ 22775 multiletter control sequences out of 15000+200000
  535311 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,64p,926b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -622,9 +691,9 @@ X/mikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTeX/mikTex/fonts/type1
 /public/amsfonts/cm/cmr10.pfb><D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><D:/LaTeX/mikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/LaTeX/m
 ikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ProgettazioneWB.pdf (14 pages, 3422145 bytes).
+Output written on ProgettazioneWB.pdf (18 pages, 5331893 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
