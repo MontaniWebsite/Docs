@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.25)  11 MAR 2022 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.12)  2 APR 2022 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/asd/Manuale d'uso.tex"
-(d:/asd/Manuale d'uso.tex
+**"c:/Users/Yacine/Desktop/User_Manual_and_Reference_Guide/User Manual and Reference Guide/Manuale d'uso.tex"
+(c:/Users/Yacine/Desktop/User_Manual_and_Reference_Guide/User Manual and Reference Guide/Manuale d'uso.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22> (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -249,6 +249,87 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip51
+) (C:\Program Files\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count284
+\lst@gtempboxa=\box95
+\lst@token=\toks19
+\lst@length=\count285
+\lst@currlwidth=\dimen155
+\lst@column=\count286
+\lst@pos=\count287
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count288
+\lst@lineno=\count289
+\lst@maxwidth=\dimen158
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count290
+\lst@skipnumbers=\count291
+\lst@framebox=\box96
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks20
+\float@box=\box97
+\@float@everytoks=\toks21
+\@floatcapt=\box98
+) (C:\Program Files\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/02/28 v3.6a Customizing captions (AR)
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/02/28 v2.3a caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count295
+\sf@farskip=\skip52
+\sf@captopadj=\dimen167
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count296
+\c@subfigure@save=\count297
+\c@lofdepth=\count298
+\c@subtable=\count299
+\c@subtable@save=\count300
+\c@lotdepth=\count301
+\sf@top=\skip55
+\sf@bottom=\skip56
 )
 \"Manuale d'uso"@idxfile=\write3
 \openout3 = `"Manuale d'uso.idx"'.
@@ -257,50 +338,50 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Writing index file "Manuale d'uso".idx
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box95
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box99
 ) (Manuale d'uso.aux)
 \openout1 = `"Manuale d'uso.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen155
-\scratchbox=\box96
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen156
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count303
+\scratchdimen=\dimen168
+\scratchbox=\box100
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen169
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks23
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \it@ocap on input line 21.
-LaTeX Info: Redefining \it@ccap on input line 21.
+LaTeX Info: Redefining \it@ocap on input line 41.
+LaTeX Info: Redefining \it@ccap on input line 41.
 
 
 File italian.ldf warning: 
@@ -308,9 +389,9 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 21.
+italian.ldf    on input line 41.
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 41.
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
@@ -318,37 +399,31 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (Manuale d'uso.out) (Manuale d'uso.out)
 \@outlinefile=\write4
 \openout4 = `"Manuale d'uso.out"'.
 
+\c@lstlisting=\count310
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/Users/Yacine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-[]\OT1/cmr/m/n/10 Boussoufa
- []
-
-
-Overfull \hbox (2.52753pt too wide) in paragraph at lines 47--64
-[][] 
- []
-
+(Font)              <5> on input line 67.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 	\clearpage
+l.88 	\clearpage
                  [1
 
 ] (Manuale d'uso.toc)
@@ -357,67 +432,145 @@ l.67 	\clearpage
 
  [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
-
- []
-
-[3
+] [3
 
 ]
-<./images//Dashboard Wordpress.jpeg, id=154, 1794.705pt x 1130.2225pt>
+<./images//Dashboard Wordpress.jpeg, id=169, 1794.705pt x 1130.2225pt>
 File: ./images//Dashboard Wordpress.jpeg Graphic file (type jpg)
 <use ./images//Dashboard Wordpress.jpeg>
-Package pdftex.def Info: ./images//Dashboard Wordpress.jpeg  used on input line 108.
+Package pdftex.def Info: ./images//Dashboard Wordpress.jpeg  used on input line 129.
 (pdftex.def)             Requested size: 323.03296pt x 203.43127pt.
  [4 <./images//Dashboard Wordpress.jpeg>]
-<./images//Modifica con Elementor.jpeg, id=159, 1794.705pt x 875.27pt>
+<./images//Editor del tema.jpeg, id=175, 1794.705pt x 915.42pt>
+File: ./images//Editor del tema.jpeg Graphic file (type jpg)
+<use ./images//Editor del tema.jpeg>
+Package pdftex.def Info: ./images//Editor del tema.jpeg  used on input line 148.
+(pdftex.def)             Requested size: 340.9975pt x 173.93161pt.
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 157.
+ (C:\Program Files\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+ [5 <./images//Editor del tema.jpeg>]
+<./images//+ Nuovo.jpeg, id=195, 1794.705pt x 292.09125pt>
+File: ./images//+ Nuovo.jpeg Graphic file (type jpg)
+<use ./images//+ Nuovo.jpeg>
+Package pdftex.def Info: ./images//+ Nuovo.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 340.9975pt x 55.49791pt.
+ [6 <./images//+ Nuovo.jpeg>]
+<./images//Nuovo Articolo Blocchi.jpeg, id=219, 1794.705pt x 237.88875pt>
+File: ./images//Nuovo Articolo Blocchi.jpeg Graphic file (type jpg)
+<use ./images//Nuovo Articolo Blocchi.jpeg>
+Package pdftex.def Info: ./images//Nuovo Articolo Blocchi.jpeg  used on input line 219.
+(pdftex.def)             Requested size: 340.9975pt x 45.19933pt.
+<./images//Nuovo articolo.jpeg, id=220, 1794.705pt x 875.27pt>
+File: ./images//Nuovo articolo.jpeg Graphic file (type jpg)
+<use ./images//Nuovo articolo.jpeg>
+Package pdftex.def Info: ./images//Nuovo articolo.jpeg  used on input line 240.
+(pdftex.def)             Requested size: 340.9975pt x 166.30302pt.
+ [7 <./images//Nuovo Articolo Blocchi.jpeg>] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 248.
+ (C:\Program Files\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 248.
+<./images//Modifica con Elementor.jpeg, id=233, 1794.705pt x 875.27pt>
 File: ./images//Modifica con Elementor.jpeg Graphic file (type jpg)
 <use ./images//Modifica con Elementor.jpeg>
-Package pdftex.def Info: ./images//Modifica con Elementor.jpeg  used on input line 130.
+Package pdftex.def Info: ./images//Modifica con Elementor.jpeg  used on input line 265.
 (pdftex.def)             Requested size: 323.03296pt x 157.5418pt.
-<./images//Elementor.jpeg, id=160, 1794.705pt x 876.27374pt>
+ [8 <./images//Nuovo articolo.jpeg>]
+<./images//Elementor.jpeg, id=245, 1794.705pt x 876.27374pt>
 File: ./images//Elementor.jpeg Graphic file (type jpg)
 <use ./images//Elementor.jpeg>
-Package pdftex.def Info: ./images//Elementor.jpeg  used on input line 134.
+Package pdftex.def Info: ./images//Elementor.jpeg  used on input line 269.
 (pdftex.def)             Requested size: 323.03296pt x 157.72246pt.
- [5 <./images//Modifica con Elementor.jpeg> <./images//Elementor.jpeg>]
-<./images//Slider Avvisi.jpeg, id=165, 1794.705pt x 74.2775pt>
+ [9 <./images//Modifica con Elementor.jpeg> <./images//Elementor.jpeg>]
+<./images//Slider Avvisi.jpeg, id=250, 1794.705pt x 74.2775pt>
 File: ./images//Slider Avvisi.jpeg Graphic file (type jpg)
 <use ./images//Slider Avvisi.jpeg>
-Package pdftex.def Info: ./images//Slider Avvisi.jpeg  used on input line 148.
+Package pdftex.def Info: ./images//Slider Avvisi.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 340.9975pt x 14.11287pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--151
+Underfull \hbox (badness 10000) in paragraph at lines 288--291
 
  []
 
-<./images//Modifica Slider Avvisi.png, id=166, 311.66437pt x 704.6325pt>
+<./images//Modifica Slider Avvisi.png, id=251, 311.66437pt x 704.6325pt>
 File: ./images//Modifica Slider Avvisi.png Graphic file (type png)
 <use ./images//Modifica Slider Avvisi.png>
-Package pdftex.def Info: ./images//Modifica Slider Avvisi.png  used on input line 153.
+Package pdftex.def Info: ./images//Modifica Slider Avvisi.png  used on input line 293.
 (pdftex.def)             Requested size: 87.26543pt x 197.29576pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
+[10 <./images//Slider Avvisi.jpeg>]
+<./images//Slider Indirizzi.jpeg, id=257, 1794.705pt x 186.6975pt>
+File: ./images//Slider Indirizzi.jpeg Graphic file (type jpg)
+<use ./images//Slider Indirizzi.jpeg>
+Package pdftex.def Info: ./images//Slider Indirizzi.jpeg  used on input line 296.
+(pdftex.def)             Requested size: 340.9975pt x 35.47289pt.
+<./images//Modifica Slider Indirizzi.jpeg, id=258, 413.545pt x 940.51375pt>
+File: ./images//Modifica Slider Indirizzi.jpeg Graphic file (type jpg)
+<use ./images//Modifica Slider Indirizzi.jpeg>
+Package pdftex.def Info: ./images//Modifica Slider Indirizzi.jpeg  used on input line 304.
+(pdftex.def)             Requested size: 115.7918pt x 263.34206pt.
+ [11 <./images//Modifica Slider Avvisi.png> <./images//Slider Indirizzi.jpeg>]
+Overfull \hbox (10.01181pt too wide) in paragraph at lines 313--314
+[]\OT1/cmr/m/n/10 [psac[]post[]slider design="design-2" show[]author="false" show[]comments="false"
  []
 
-[6 <./images//Slider Avvisi.jpeg> <./images//Modifica Slider Avvisi.png>] [7] [8] (Manuale d'uso.aux)
+[12 <./images//Modifica Slider Indirizzi.jpeg>]
+<./images//Modifica articoli a griglia.jpeg, id=269, 386.44376pt x 940.51375pt>
+File: ./images//Modifica articoli a griglia.jpeg Graphic file (type jpg)
+<use ./images//Modifica articoli a griglia.jpeg>
+Package pdftex.def Info: ./images//Modifica articoli a griglia.jpeg  used on input line 328.
+(pdftex.def)             Requested size: 77.28737pt x 188.09941pt.
+<./images//Servizi.jpeg, id=270, 240.9pt x 799.98875pt>
+File: ./images//Servizi.jpeg Graphic file (type jpg)
+<use ./images//Servizi.jpeg>
+Package pdftex.def Info: ./images//Servizi.jpeg  used on input line 337.
+(pdftex.def)             Requested size: 56.6115pt x 187.99738pt.
+<./images//Blocco servizi.jpeg, id=271, 412.54124pt x 940.51375pt>
+File: ./images//Blocco servizi.jpeg Graphic file (type jpg)
+<use ./images//Blocco servizi.jpeg>
+Package pdftex.def Info: ./images//Blocco servizi.jpeg  used on input line 339.
+(pdftex.def)             Requested size: 82.50677pt x 188.09941pt.
+ [13 <./images//Modifica articoli a griglia.jpeg>]
+<./images//PON.jpeg, id=276, 1794.705pt x 270.00874pt>
+File: ./images//PON.jpeg Graphic file (type jpg)
+<use ./images//PON.jpeg>
+Package pdftex.def Info: ./images//PON.jpeg  used on input line 347.
+(pdftex.def)             Requested size: 358.93465pt x 54.00078pt.
+
+Overfull \hbox (13.93465pt too wide) in paragraph at lines 347--348
+[][] 
+ []
+
+[14 <./images//Servizi.jpeg> <./images//Blocco servizi.jpeg> <./images//PON.jpeg>] [15] [16] [17] (Manuale d'uso.aux)
 Package rerunfilecheck Info: File `"Manuale d'uso".out' has not changed.
-(rerunfilecheck)             Checksum: B555D93ECEA58B211F80533342A4DF49;3034.
+(rerunfilecheck)             Checksum: 05AC9F4BA26B702C3F7515834ABB0B42;3851.
  ) 
 Here is how much of TeX's memory you used:
- 10076 strings out of 478659
- 160436 string characters out of 2855774
- 480762 words of memory out of 3000000
- 28025 multiletter control sequences out of 15000+600000
- 405889 words of font info for 35 fonts, out of 8000000 for 9000
+ 15974 strings out of 478659
+ 258012 string characters out of 2855774
+ 872405 words of memory out of 3000000
+ 33802 multiletter control sequences out of 15000+600000
+ 406780 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,450b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Yacine\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Manuale d'uso.pdf" (9 pages, 600627 bytes).
+ 85i,8n,133p,763b,3238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Yacine\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Yacine\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Manuale d'uso.pdf" (18 pages, 1476685 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

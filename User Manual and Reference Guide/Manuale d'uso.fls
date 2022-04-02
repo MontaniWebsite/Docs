@@ -1,6 +1,6 @@
-PWD d:\asd
+PWD c:\Users\Yacine\Desktop\User_Manual_and_Reference_Guide\User Manual and Reference Guide
 INPUT C:\Users\Yacine\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\asd\Manuale d'uso.tex
+INPUT c:\Users\Yacine\Desktop\User_Manual_and_Reference_Guide\User Manual and Reference Guide\Manuale d'uso.tex
 OUTPUT Manuale d'uso.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
@@ -435,6 +435,101 @@ INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 OUTPUT Manuale d'uso.idx
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -538,6 +633,61 @@ INPUT .\images\\Dashboard Wordpress.jpeg
 INPUT .\images\\Dashboard Wordpress.jpeg
 INPUT .\images\\Dashboard Wordpress.jpeg
 INPUT .\images\\Dashboard Wordpress.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT images\\Editor del tema.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT .\images\\Editor del tema.jpeg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang2.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcti1000.tfm
+INPUT .\images\\+ Nuovo.jpeg
+INPUT .\images\\+ Nuovo.jpeg
+INPUT images\\+ Nuovo.jpeg
+INPUT .\images\\+ Nuovo.jpeg
+INPUT .\images\\+ Nuovo.jpeg
+INPUT .\images\\+ Nuovo.jpeg
+INPUT .\images\\+ Nuovo.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT images\\Nuovo Articolo Blocchi.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT .\images\\Nuovo Articolo Blocchi.jpeg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT images\\Nuovo articolo.jpeg
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT .\images\\Nuovo articolo.jpeg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omlcmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\base\omlcmr.fd
 INPUT .\images\\Modifica con Elementor.jpeg
 INPUT .\images\\Modifica con Elementor.jpeg
 INPUT images\\Modifica con Elementor.jpeg
@@ -552,7 +702,6 @@ INPUT .\images\\Elementor.jpeg
 INPUT .\images\\Elementor.jpeg
 INPUT .\images\\Elementor.jpeg
 INPUT .\images\\Elementor.jpeg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\images\\Slider Avvisi.jpeg
 INPUT .\images\\Slider Avvisi.jpeg
 INPUT images\\Slider Avvisi.jpeg
@@ -567,16 +716,69 @@ INPUT .\images\\Modifica Slider Avvisi.png
 INPUT .\images\\Modifica Slider Avvisi.png
 INPUT .\images\\Modifica Slider Avvisi.png
 INPUT .\images\\Modifica Slider Avvisi.png
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT images\\Slider Indirizzi.jpeg
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT .\images\\Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica Slider Indirizzi.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Modifica articoli a griglia.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT images\\Servizi.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT .\images\\Servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT images\\Blocco servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT .\images\\Blocco servizi.jpeg
+INPUT .\images\\PON.jpeg
+INPUT .\images\\PON.jpeg
+INPUT images\\PON.jpeg
+INPUT .\images\\PON.jpeg
+INPUT .\images\\PON.jpeg
+INPUT .\images\\PON.jpeg
+INPUT .\images\\PON.jpeg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT Manuale d'uso.aux
 INPUT .\Manuale d'uso.out
 INPUT .\Manuale d'uso.out
 INPUT C:\Users\Yacine\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Yacine\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Yacine\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1000.pk
+INPUT C:\Users\Yacine\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1000.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
